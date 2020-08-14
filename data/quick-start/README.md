@@ -1,4 +1,4 @@
-# Start of Work
+# Start Operation
 
 To solve the analysis tasks, [**Loginom**](https://loginom.ru) allows for data import from different sources and application of the required processing algorithms. It is possible to view results in the system or to export them to the external data receivers.
 

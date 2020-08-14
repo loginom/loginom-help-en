@@ -1,19 +1,19 @@
-# Страница «Начало»
+# "Home" page
 
-После открытия приложения, в случае настольной версии Loginom, или авторизации, в случае серверной версии Loginom, появляется страница «Начало» (см. рисунок 1).
+Upon the application opening, in the case of the desktop Loginom version, or authorization, in the case of the server Loginom version, the "Home" page is opened (refer to  Figure 1).
 
-![Страница «Начало».](./home-page.png)
+!["Home" page](./home-page.png)
 
-Данная страница содержит следующие команды для манипуляции с [пакетами](../quick-start/package.md):
+This page contains the following commands to use [packages](../quick-start/package.md):
 
-* **Создать новый пакет** — позволяет создать и сохранить новый Пакет;
-* **Создать черновик** — позволяет создать временный Пакет и работать с ним, не сохраняя его;
-* **Открыть пакет** — позволяет открыть существующий Пакет.
+* **New package** enables to create and save a new Package.
+* **New Draft** enables to create a temporary Package and work with it without saving.
+* **Open Package** enables to open an existing Package.
 
-Ниже расположена графа "Последние открытые пакеты", включающая в себя историю открытия Пакетов со следующими полями:
+"Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:
 
-* **Имя** — файл Пакета;
-* **Местоположение** — место файла Пакета на диске (настольная версия) или в [файловом хранилище](../location_user_files.md) (серверная версия);
-* **Открывался** — дата и время открытия Пакета.
+* **Name** is a Package file.
+* **Location** is a location of the Package on disk (desktop version) or in [file storage](../location_user_files.md) (server version).
+* **Open time** is a date and time of the Package opening.
 
-> **Примечание:** можно открыть раннее открытый Пакет, нажав на его имя.
+> **Note:** it is possible to open previously opened Package by pressing its name.

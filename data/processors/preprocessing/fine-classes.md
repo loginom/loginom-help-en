@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/components/coarseclasses_default.svg) Конечные классы
 
-## Описание
+## Description
 
 Обработчик Конечные классы предназначен для решения следующих задач:
 

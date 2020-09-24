@@ -10,7 +10,7 @@
 ## Интерфейс
 
 * ![ ](..\images\icons\toolbar-controls\new_default.svg) **Создать** — открывает окно для задания пути и имени нового *Пакета*, после сохранения открывает данный пустой *Пакет*. Также под кнопкой ![ ](..\images\icons\toolbar-controls\down_default.svg):
-   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **Создать черновик** — создание временного *Пакета*, без текущего сохранения.
+   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft** — создание временного *Пакета*, без текущего сохранения.
 * ![ ](..\images\icons\toolbar-controls\open_default.svg) **Открыть** — открывает окно выбора существующего *Пакета*.
 * ![ ](..\images\icons\toolbar-controls\save_default.svg) **Сохранить** — сохранение выделенного *Пакета*. Также под кнопкой ![ ](..\images\icons\toolbar-controls\down_default.svg):
    * ![ ](..\images\icons\toolbar-controls\save-as_default.svg) **Сохранить как** — сохранение выделенного *Пакета* под новым именем и/или по другому доступному пути.
@@ -48,7 +48,7 @@
    * ![ ](..\images\icons\blank.svg) **Закрыть другие пакеты…** — производит закрытие всех *Пакетов*, кроме выделенного.
 * Для свободной зоны:
    * ![ ](..\images\icons\toolbar-controls\new_default.svg) **Создать новый пакет…**
-   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **Создать черновик**
+   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft**
    * ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Сохранить все пакеты**
    * ![ ](..\images\icons\toolbar-controls\close-all_default.svg) **Закрыть все пакеты…**
 * Общее:

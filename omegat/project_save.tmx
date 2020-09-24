@@ -4,6 +4,1654 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114410Z" creationid="Марианна" creationdate="20200807T114321Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New Draft&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt; — создание временного &lt;x5/&gt;Пакета&lt;x6/&gt;, без текущего сохранения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114406Z" creationid="Марианна" creationdate="20200807T114307Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New Draft&lt;x4/&gt; — создание временного &lt;x5/&gt;Пакета&lt;x6/&gt;, без текущего сохранения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add reference to connection into Workflow — &lt;x3/&gt;Reference node&lt;x4/&gt; (1) for connection will be added to the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить узел Подключения в Сценарий — в сценарий будет добавлен производный узел (2), унаследованный от выбранного подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122657Z" creationid="Марианна" creationdate="20200711T102053Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add Connection node to Workflow — derived node (2) inherited from the selected connection will be added to the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Configure the connection — go to the connection configuration parameters window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Дерево</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T111015Z" creationid="Марианна" creationdate="20200716T080126Z">
+        <seg>&lt;x1/&gt; Data tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075841Z" creationid="Марианна" creationdate="20200716T075841Z">
+        <seg>&lt;x1/&gt; Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080258Z" creationid="Марианна" creationdate="20200716T080258Z">
+        <seg>&lt;x1/&gt; Connections</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075023Z" creationid="Марианна" creationdate="20200716T075023Z">
+        <seg>&lt;x1/&gt; Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
+        <seg>&lt;x1/&gt;Selection of the Block of Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вызов быстрого просмотра.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100751Z" creationid="Марианна" creationdate="20200717T100751Z">
+        <seg>&lt;x1/&gt;Call Quick View&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вызов мастера настройки узла.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T090007Z" creationid="Марианна" creationdate="20200717T090007Z">
+        <seg>&lt;x1/&gt;Call node configuration wizard.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использование узла подключения.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
+        <seg>&lt;x1/&gt;Connection Node Use.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt; — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113216Z" creationid="Марианна" creationdate="20200713T112223Z">
+        <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using references.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модуль&lt;x2/&gt; — сам по себе не содержит узлов обработки данных, но предоставляет отдельное пространство для Сценариев и &lt;x3/&gt;Подключений&lt;x4/&gt; к различным источникам данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163148Z" creationid="Марианна" creationdate="20200718T163148Z">
+        <seg>The &lt;x1/&gt;Module&lt;x2/&gt; as such does not contain data processing nodes, but it provides separate space for the Workflows and &lt;x3/&gt;Connections&lt;x4/&gt; to different data sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
+        <seg>&lt;x1/&gt;The Workflow Construction Area and the Components Panel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
+        <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — opening of the earlier created package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
+        <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованное значение одного из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T065653Z" creationid="Марианна" creationdate="20200715T065653Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; is a named value of one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключения&lt;x2/&gt; — в них представлен список внешних источников и приемников данных, к которым можно подключиться;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
+        <seg>&lt;x1/&gt;Connections&lt;x2/&gt; include a list of the external sources and data receivers to be connected with.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt; — включает в себя другие узлы, предоставляя, таким образом, отдельное пространство для реализации произвольного алгоритма обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164058Z" creationid="Марианна" creationdate="20200718T164058Z">
+        <seg>The &lt;x1/&gt;Supernode&lt;x2/&gt; includes other nodes providing in such a way separate space for execution of the random algorithm of data processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Преобразование блока узлов в Подмодель.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111332Z" creationid="Марианна" creationdate="20200717T111315Z">
+        <seg>&lt;x1/&gt;Transformation of the Block of Nodes to the Supernode&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример сценария.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092012Z" creationid="Марианна" creationdate="20200715T092012Z">
+        <seg>&lt;x1/&gt;Workflow example&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
+        <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаются и настраиваются пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102403Z" creationid="Марианна" creationdate="20200715T092325Z">
+        <seg>&lt;x1/&gt;Derived components&lt;x2/&gt; are created and configured by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рабочее пространство Studio.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140802Z" creationid="Марианна" creationdate="20200716T140802Z">
+        <seg>&lt;x1/&gt;Working Space of Studio.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Результирующий сценарий.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
+        <seg>&lt;x1/&gt;Resulting Workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
+        <seg>&lt;x1/&gt;Creation of the connection node in the workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать пакет&lt;x2/&gt; — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114118Z" creationid="Марианна" creationdate="20200716T121353Z">
+        <seg>&lt;x1/&gt;New package&lt;x2/&gt; — creation of the new package. You will be asked to show the path to save the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114355Z" creationid="Марианна" creationdate="20200807T114242Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114401Z" creationid="Марианна" creationdate="20200807T114252Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание нового пакета без предварительного сохранения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114345Z" creationid="Марианна" creationdate="20200716T122116Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — creation of the new package without preliminary saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
+        <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартные компоненты&lt;x2/&gt; — предоставляются в рамках платформы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092253Z" creationid="Марианна" creationdate="20200715T092253Z">
+        <seg>&lt;x1/&gt;Standard components&lt;x2/&gt; are provided by the platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091311Z" creationid="Марианна" creationdate="20200715T091311Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; is a sequence of actions that must be performed for data analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — содержит последовательность узлов обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113637Z" creationid="Марианна" creationdate="20200718T163303Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; contains sequence of data processing nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — содержит последовательность узлов обработки данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113656Z" creationid="Марианна" creationdate="20200713T111733Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; contains sequence of data processing nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Узлы подмодели «ABC-анализ».&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
+        <seg>&lt;x1/&gt;"ABC Analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтр строк&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115229Z" creationid="Марианна" creationdate="20200807T115229Z">
+        <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтр строк&lt;x2/&gt; Фильтр строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115253Z" creationid="Марианна" creationdate="20200807T115253Z">
+        <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt; Фильтр строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формирование связи.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101314Z" creationid="Марианна" creationdate="20200717T101314Z">
+        <seg>&lt;x1/&gt;Establish Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T121445Z" creationid="Марианна" creationdate="20200717T110908Z">
+        <seg>The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Studio инструментом для создания таких функций являются &lt;x1/&gt;производные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T151243Z" creationid="Марианна" creationdate="20200718T151243Z">
+        <seg>The &lt;x1/&gt;derived components&lt;x2/&gt; are tools for creation of such functions in Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Мастере настройки узла &lt;x1/&gt;Группировка&lt;x2/&gt; поле Карта клиента задается как группа, а Сумма как показатель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115219Z" creationid="Марианна" creationdate="20200717T105654Z">
+        <seg>The Client Card field is set as a group, and the Sum is set as a parameter in the &lt;x1/&gt;Grouping&lt;x2/&gt; Node Wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; и &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114031Z" creationid="Марианна" creationdate="20200716T115803Z">
+        <seg>In the case of the &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; delivery editions, when starting the software, the home login page is opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В варианте &lt;x9/&gt;Personal&lt;x10/&gt; авторизация отсутствует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T121040Z" creationid="Марианна" creationdate="20200716T121040Z">
+        <seg>There is no authorization for the &lt;x9/&gt;Personal&lt;x10/&gt; version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111706Z" creationid="Марианна" creationdate="20200717T111706Z">
+        <seg>Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В нижней части окна расположена панель Процессы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
+        <seg>The Processes panel is located in the lower part of the window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
+        <seg>The project construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— representation of an algorithm in the form of hierarchical structure of blocks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
+        <seg>The &lt;x1/&gt;inheritance mechanism&lt;x2/&gt; is executed in the derived components. Its advantage is its ability to modify the universal component created by a user only in one place - in the library of functions. These changes will be automatically introduced in all workflows where it is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
+        <seg>In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результирующем сценарии добавляется узел экспорта и/или настраивается &lt;x1/&gt;Визуализатор&lt;x2/&gt; результатов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115541Z" creationid="Марианна" creationdate="20200717T110708Z">
+        <seg>The export node is added to the resulting workflow, and/or the &lt;x1/&gt;Visualizer&lt;x2/&gt; of results is configured (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В состав подмодели могут также включаться и другие подмодели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
+        <seg>The supernode can also include other supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075828Z" creationid="Марианна" creationdate="20200716T075828Z">
+        <seg>Cells of such table contain the data elements: rows, numbers, dates, logical values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140301Z" creationid="Марианна" creationdate="20200716T140301Z">
+        <seg>The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Виды портов узлов сценария:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
+        <seg>Types of ports of the workflow nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Включать в себя подпрограммы — &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163421Z" creationid="Марианна" creationdate="20200718T163421Z">
+        <seg>It can include subprograms — the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вложенность подмоделей друг в друга не ограничена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074858Z" creationid="Марианна" creationdate="20200716T074858Z">
+        <seg>Nesting of supernodes inside each other is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Все действия с проектом в Loginom осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
+        <seg>All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140236Z" creationid="Марианна" creationdate="20200718T140236Z">
+        <seg>It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входные и выходные порты задаются пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
+        <seg>Input and output ports are set by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входом и выходом обработчика являются &lt;x1/&gt;входные&lt;x2/&gt; и &lt;x3/&gt;выходные &lt;x4/&gt;порты&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091949Z" creationid="Марианна" creationdate="20200715T091949Z">
+        <seg>The handler input and output are &lt;x1/&gt;input&lt;x2/&gt; and &lt;x3/&gt;output &lt;x4/&gt;ports&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входы узла могут настраиваться автоматически (при подключении связи) или вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T103225Z" creationid="Марианна" creationdate="20200716T094626Z">
+        <seg>The node inputs can be automatically (when providing a link) or manually configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выберем в разделе Импорт компонент &lt;x1/&gt;Текстовый файл&lt;x2/&gt; и перенесем его в область построения (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085319Z" creationid="Марианна" creationdate="20200717T085319Z">
+        <seg>Select the &lt;x1/&gt;Text file&lt;x2/&gt; component in the Import section and transfer it to the construction area (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выделение 10 клиентов с наибольшими суммами покупок;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084902Z" creationid="Марианна" creationdate="20200717T084902Z">
+        <seg>Selection of 10 clients with the highest purchase sums.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выделение блоков, решающих независимые подзадачи, дает возможность применять их повторно в смежных задачах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141501Z" creationid="Марианна" creationdate="20200718T141501Z">
+        <seg>Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
+        <seg>Select the required connection in the panel and use one of the specified methods clicking the right mouse button to open its context menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вызовем &lt;x3/&gt;Мастер настройки&lt;x4/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
+        <seg>Call the &lt;x3/&gt;Wizard&lt;x4/&gt; (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
+        <seg>Then these data are sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data are transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данную задачу решает &lt;x1/&gt;механизм переопределения&lt;x2/&gt;, позволяющий модифицировать производный компонент только в использующем его сценарии, при этом в библиотеке функций он останется неизменным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162402Z" creationid="Марианна" creationdate="20200718T162402Z">
+        <seg>This task is solved by the &lt;x1/&gt;overriding mechanism&lt;x2/&gt; providing modification of the derived component only in the workflow using it. It will be unchanged in the library of functions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Декомпозиция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
+        <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T102731Z" creationid="Марианна" creationdate="20200711T104436Z">
+        <seg>Separate handler &lt;x1/&gt;Import from database&lt;x2/&gt; is used to receive data from the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для приема и передачи от узла к узлу переменных предусмотрен порт переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T065755Z" creationid="Марианна" creationdate="20200715T065755Z">
+        <seg>The variables port is designated for receipt and transfer of variables from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для работы с базой данных, предварительно необходимо создать &lt;x1/&gt;Подключение&lt;x2/&gt; соответствующего типа, в зависимости от того к какой базе нужно подключиться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100018Z" creationid="Марианна" creationdate="20200711T100018Z">
+        <seg>First, it is required to create corresponding &lt;x1/&gt;Connection&lt;x2/&gt; to work with the database to be connected with.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для работы с данными из какой-либо базы данных, необходимо выполнить несколько подготовительных действий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200710T150901Z" creationid="Марианна" creationdate="20200710T150901Z">
+        <seg>It is required to perform several preparatory actions to start the work with data from any database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для решения задач анализа &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; позволяет импортировать данные из различных источников и применять к ним необходимые алгоритмы обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090521Z" creationid="Марианна" creationdate="20200715T090312Z">
+        <seg>To solve the analysis tasks, &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; allows for data import from different sources and application of the required processing algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для создания узла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
+        <seg>The following actions are required to create the node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085159Z" creationid="Марианна" creationdate="20200717T085159Z">
+        <seg>To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого выходные данные порта &lt;x5/&gt; &lt;x6/&gt; узла подключения необходимо подать на входной порт &lt;x7/&gt; &lt;x8/&gt; нуждающегося в этом подключении узла импорта/экспорта (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T141042Z" creationid="Марианна" creationdate="20200711T104055Z">
+        <seg>For this purpose &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого используется компонент &lt;x3/&gt;Фильтр строк&lt;x4/&gt;, в мастере которого задается условие: "№ Номер строки &lt;= 10".</seg>
+      </tuv>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T101620Z" creationid="Марианна" creationdate="20200717T110526Z">
+        <seg>For this purpose, the &lt;x3/&gt;Row Filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" criteria is set in its wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого необходимо выделить эти узлы и при помощи кнопки &lt;x3/&gt;&lt;x4/&gt; создать подмодель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111038Z" creationid="Марианна" creationdate="20200717T111038Z">
+        <seg>For this purpose, it is required to select these nodes and using the &lt;x3/&gt;&lt;x4/&gt; button create a supernode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого переместим компонент &lt;x1/&gt;Группировка&lt;x2/&gt; в рабочую область сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
+        <seg>For this purpose, trasfer the &lt;x1/&gt;Grouping&lt;x2/&gt; component to the working workflow area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Его можно разделить на четыре основные области (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
+        <seg>It can be divided into four main areas (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
+        <seg>Import of the sales information from the &lt;x1/&gt;Sales.txt&lt;x2/&gt; file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интеграция с базами данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
+        <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использование переменных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
+        <seg>Variables Use</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использовать готовые алгоритмы обработки данных, созданные в других сценариях и пакетах через механизм &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163924Z" creationid="Марианна" creationdate="20200718T163924Z">
+        <seg>It can use ready algorithms of processing of the data created in other workflows and packages using the &lt;x1/&gt;Derived Components&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использовать настройки и обученные модели узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Выполнение узла&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163712Z" creationid="Марианна" creationdate="20200718T163712Z">
+        <seg>It can use settings and trained models of nodes from different workflows and packages using the &lt;x1/&gt;Node Execution&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T135300Z" creationid="Марианна" creationdate="20200718T135300Z">
+        <seg>Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждый пакет содержит хотя бы один модуль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111545Z" creationid="Марианна" creationdate="20200713T111545Z">
+        <seg>Each package contains at least one module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество входов и выходов узла варьируется в зависимости от функционала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T093609Z" creationid="Марианна" creationdate="20200716T093547Z">
+        <seg>Number of the node inputs and outputs varies according to functionality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
+        <seg>Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: &lt;x7/&gt;user&lt;x8/&gt;, without password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Механизм повторного использования алгоритмов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
+        <seg>Mechanism of the Algorithms Reuse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T135924Z" creationid="Марианна" creationdate="20200718T135924Z">
+        <seg>It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Модуль включает в себя:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
+        <seg>The Module inludes the following items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может содержать в себе иерархию вложенных подмоделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164259Z" creationid="Марианна" creationdate="20200718T164259Z">
+        <seg>It can include hierarchy of nested supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На базе подмодели может быть создан Производный компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164356Z" creationid="Марианна" creationdate="20200718T164356Z">
+        <seg>The Derived Component can be created on the supernode base.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
+        <seg>Solution of the set task is described at the first design step specifying independent subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На рисунке «Пример сценария» узел &lt;x1/&gt;«ABC-анализ»&lt;x2/&gt; является производным компонентом — подмоделью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T073548Z" creationid="Марианна" creationdate="20200716T073548Z">
+        <seg>The "Workflow Example" figure shows the &lt;x1/&gt;"ABC analysis"&lt;x2/&gt; node that is a derived component - supernode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
+        <seg>Subtasks are similarly described at the next step with specification of the next level elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Назначение и структура пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
+        <seg>Package Designation and Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
+        <seg>Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка узла импорта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104354Z" creationid="Марианна" creationdate="20200711T104354Z">
+        <seg>Import Node Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Начало работы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090041Z" creationid="Марианна" creationdate="20200715T090041Z">
+        <seg>Start of Work</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необходимо войти в систему, введя свой логин и пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113518Z" creationid="Марианна" creationdate="20200716T120652Z">
+        <seg>It is required to log in having entered password and login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако не всегда удается встроить универсальный компонент в конкретный сценарий без внесения в него изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T161312Z" creationid="Марианна" creationdate="20200718T161312Z">
+        <seg>However, it is not always possible to insert the universal component into particular workflow without introduction of changes into it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Одной из основных концепций, на которых базируется платформа &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt;, является &lt;x5/&gt;Сценарий&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091216Z" creationid="Марианна" creationdate="20200715T091216Z">
+        <seg>One of the main concepts on which the &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; platform is based is the &lt;x5/&gt;Workflow&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140615Z" creationid="Марианна" creationdate="20200716T140615Z">
+        <seg>It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
+        <seg>It allows for import of the database table or results of execution of the SQL query set by the user and view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091406Z" creationid="Марианна" creationdate="20200715T091406Z">
+        <seg>It is a combination of data processing nodes configured by a user to solve particular tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Описание</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075013Z" creationid="Марианна" creationdate="20200716T075013Z">
+        <seg>Description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Определяют настройки для работы с внешними источниками и приемниками данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
+        <seg>They define configuration for work with external sources and data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Особенностью подобного подхода является проектирование «сверху вниз» — от общей постановки задачи к отдельным подзадачам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140530Z" creationid="Марианна" creationdate="20200718T140530Z">
+        <seg>The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
+        <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пакет включает в себя Модули — декомпозиция пакета на уровне модулей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163009Z" creationid="Марианна" creationdate="20200718T163009Z">
+        <seg>The package includes the Modules - the package decomposition on the level of modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пакеты сохраняются по-отдельности в виде файлов с расширением .lgp, и включают в себя Ссылки и Модули.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T112954Z" creationid="Марианна" creationdate="20200713T111210Z">
+        <seg>Packages are saved separately in the form of files with .lgp extension, and they include References and Modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры подключения к источнику данных используются узлами &lt;x1/&gt;импорта&lt;x2/&gt;/&lt;x3/&gt;экспорта&lt;x4/&gt; данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
+        <seg>Parameters of connection to the data source are used by the data &lt;x1/&gt;import&lt;x2/&gt;/&lt;x3/&gt;export&lt;x4/&gt; nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Первый сценарий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T103442Z" creationid="Марианна" creationdate="20200716T103442Z">
+        <seg>The First Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перед закрытием пакета его необходимо &lt;x1/&gt;сохранить&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
+        <seg>The package must be &lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перейти к подключению — переход к окну с доступными подключениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122536Z" creationid="Марианна" creationdate="20200711T102844Z">
+        <seg>Go to connection — go to the window with the available connections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная в качестве параметра SQL-запроса при &lt;x1/&gt;Импорте из базы данных&lt;x2/&gt;, переменная содержит текст SQL-запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T123701Z" creationid="Марианна" creationdate="20200715T072020Z">
+        <seg>The variable as the SQL query parameter in the case of &lt;x1/&gt;Import from database&lt;x2/&gt;, the variable contains the SQL query text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная в качестве параметра компонента &lt;x1/&gt;Условие&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T123205Z" creationid="Марианна" creationdate="20200715T070455Z">
+        <seg>The variable as the parameter of the &lt;x1/&gt;Condition&lt;x2/&gt; component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная в формуле, вычисляющей значение выражения используя &lt;x1/&gt;Калькулятор&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070351Z" creationid="Марианна" creationdate="20200715T070340Z">
+        <seg>The variable in the formula providing calculation of the expression value using the &lt;x1/&gt;Calculator&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная может выступать параметром условия компонента &lt;x1/&gt;Фильтр строк&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T101105Z" creationid="Марианна" creationdate="20200715T071701Z">
+        <seg>The variable can be also used as the criteria parameter of the &lt;x1/&gt;Row Filter&lt;x2/&gt; component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные так же могут быть использованы для того, чтобы задать параметры настроек узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
+        <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечень возможных операций представлен палитрой готовых &lt;x1/&gt;компонентов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
+        <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию она скрыта, но ее можно закрепить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
+        <seg>It is concealed by default, but it is possibble to lock it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
+        <seg>The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подмодель в сценарии представлена в качестве узла, имеющего заданные пользователем входные и выходные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164210Z" creationid="Марианна" creationdate="20200718T164210Z">
+        <seg>The supernode in the workflow is represented as the node that has the input and output ports set by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T073105Z" creationid="Марианна" creationdate="20200716T073105Z">
+        <seg>The supernode accepts information by means of input ports, performs processing and sends results to output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подмодель является специальным узлом, способным включать в себя другие узлы сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
+        <seg>The supernode is a special node that can include other workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Получать данные от узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
+        <seg>It can receive data from nodes from other workflows and packages using the &lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075003Z" creationid="Марианна" creationdate="20200716T075003Z">
+        <seg>Port</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
+        <seg>As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После авторизации открывается окно выбора действий (страница &lt;x1/&gt;Начало&lt;x2/&gt;), в котором можно выполнять следующие операции с пакетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114652Z" creationid="Марианна" creationdate="20200716T121239Z">
+        <seg>Upon authorization, the action selection window will be opened (the &lt;x1/&gt;Home page&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После выбора пакета пользователь попадает в рабочее пространство программы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122939Z" creationid="Марианна" creationdate="20200716T122939Z">
+        <seg>Upon package selection, a user will enter the working space of the software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После закрытия пакета этот файл удаляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
+        <seg>This file is deleted upon the package closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После настройки и выполнения узла группировки в выходном порту содержатся данные об итоговых суммах покупок клиентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T105856Z" creationid="Марианна" creationdate="20200717T105856Z">
+        <seg>Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После настройки узла выполним его, используя меню возможных действий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100338Z" creationid="Марианна" creationdate="20200717T100338Z">
+        <seg>Execute the node upon its configuration using the menu of possible actions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После создания пакета пользователь увидит Область построения сценария (6) и панель Компоненты (5), содержащую стандартные компоненты, предоставляемые платформой (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113917Z" creationid="Марианна" creationdate="20200716T141015Z">
+        <seg>Upon package creation, a user will see the Workflow Construction Area (6) and the Components panel (5) which contains the standard components provided by the platform (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательность обработки данных задается соединением выходного порта узла импорта с входным портом группировки (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101209Z" creationid="Марианна" creationdate="20200717T101209Z">
+        <seg>The sequence of data processing is set by connection of the output port of the import node with the input grouping port (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
+        <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет собой набор данных в иерархической древовидной структуре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080246Z" creationid="Марианна" creationdate="20200716T080246Z">
+        <seg>It is a set of data in the form of hierarchic tree-like structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075712Z" creationid="Марианна" creationdate="20200716T075712Z">
+        <seg>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляют собой объекты, содержащие только одно значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075918Z" creationid="Марианна" creationdate="20200716T075918Z">
+        <seg>They are objects containing only one value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При клике мышкой на узле отобразятся иконки возможных действий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
+        <seg>Icons of possible actions will be displayed after mouse click.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом изменить его в библиотеке функций нет возможности, поскольку сработает механизм наследования, и это может привести к ошибкам во всех сценариях, где он применяется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162124Z" creationid="Марианна" creationdate="20200718T162124Z">
+        <seg>At the same time, it is not possible to change it in the library of functions because the inheritance mechanism will be activated. It can cause errors in all workflows where it is applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
+        <seg>In this case, the workflow node responsible for import is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеры использования переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
+        <seg>Examples of the variables use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеры использования управляющих переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T071151Z" creationid="Марианна" creationdate="20200715T071151Z">
+        <seg>Examples of the control variables use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
+        <seg>Note: in the case of any package opening the file with the following name is created: &lt;x1/&gt;&lt;Package_name&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принципы проектирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114738Z" creationid="Марианна" creationdate="20200717T114738Z">
+        <seg>Design Principles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принципы создания решений на основе собственных компонентов рассматриваются в статье &lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
+        <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120709Z" creationid="Марианна" creationdate="20200718T120709Z">
+        <seg>The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проект может состоять из связанных между собой Пакетов — это возможно благодаря тому, что &lt;x1/&gt;каждый пакет может предоставлять свои объекты другим пакетам&lt;x2/&gt; через механизм ссылок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122105Z" creationid="Марианна" creationdate="20200718T162928Z">
+        <seg>The Project can consist of interconnected Packages. It is possible due to the fact that &lt;x1/&gt;each package can provide its objects to other packages&lt;x2/&gt; using the mechanism of references.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Производный компонент можно создать из комбинации узлов сценария, реализующих произвольную логику обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092841Z" creationid="Марианна" creationdate="20200715T092841Z">
+        <seg>The derived components can be created from combination of the workflow nodes implementing the random processing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Производный узел будет иметь те же настройки, что и выбранное подключение, однако, их возможно переопределить в мастере настройки узла (при этом настройки подключения, от которого был унаследован узел, не изменятся).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102521Z" creationid="Марианна" creationdate="20200711T102427Z">
+        <seg>The derived node will have the same settings as the selected connection. However, it is possible to redefine them using the Node Wizard (in this case, settings of the connection from which the node has been inherited will not be changed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пройдем шаги мастера, указав в параметре Имя файла местоположение файла Sales.txt.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100236Z" creationid="Марианна" creationdate="20200717T100236Z">
+        <seg>Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процесс продолжают, пока не доходят до подзадач, алгоритмы, решения которых очевидны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141133Z" creationid="Марианна" creationdate="20200718T141133Z">
+        <seg>The process is repeated until definition of subtasks and algorithms solutions of which are obvious.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T171404Z" creationid="Марианна" creationdate="20200718T151127Z">
+        <seg>Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
+        <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
+        <seg>It is possible to view results in the system or to export them to the external data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
+        <seg>It is possible to transform the data from tables to variables and vice versa using the special handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
+        <seg>The main menu with the following buttons is located on the left: Menu, Packages, Navigation, &lt;x1/&gt;Files&lt;x2/&gt;, &lt;x3/&gt;Processes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следующим шагом в алгоритме необходимо подсчитать общие суммы покупок по всем клиентам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100900Z" creationid="Марианна" creationdate="20200717T100900Z">
+        <seg>The next algorithm step is calculation of purchase sum for all clients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создав один раз компонент «&lt;x3/&gt;ABC-анализа&lt;x4/&gt;», его можно применять как в задаче сегментации товаров, так и в сегментации клиентской базы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T151619Z" creationid="Марианна" creationdate="20200718T151619Z">
+        <seg>Having once created the "&lt;x3/&gt;ABC analysis&lt;x4/&gt;" component, it can be applied both for solution of the goods and customer base segmentation task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создадим простой сценарий, формирующий ТОП10 лучших клиентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114020Z" creationid="Марианна" creationdate="20200717T084604Z">
+        <seg>Let's create a simple workflow that will form TOP10 list of the best clients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создание подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
+        <seg>Connection Creation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создание узла подключения в сценарии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100134Z" creationid="Марианна" creationdate="20200711T100134Z">
+        <seg>Creation of the Connection Node in the Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Созданное подключение необходимо поместить в сценарий,  для этого необходимо создать узел, выходными данными которого будут являться параметры подключения к источнику данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T140413Z" creationid="Марианна" creationdate="20200711T100413Z">
+        <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Соответствующие объекты доступны только в том случае, когда они опубликованы для общего доступа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111519Z" creationid="Марианна" creationdate="20200713T111519Z">
+        <seg>Corresponding objects are available only if they are published for shared access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сохранить пакет можно будет уже во время работы с ним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122151Z" creationid="Марианна" creationdate="20200716T122151Z">
+        <seg>It is possible to save the package only during the process of work with it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Справа от главного меню располагается рабочий стол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140347Z" creationid="Марианна" creationdate="20200716T140347Z">
+        <seg>Desktop is located to the right of the main menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Спроектированный таким образом проект имеет четкую, легко читаемую структуру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
+        <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
+        <seg>The References are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структура Проекта может быть представлена в иерархическом виде:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
+        <seg>The Project structure can be represented in the hierarchical form:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структурный подход</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120750Z" creationid="Марианна" creationdate="20200718T120750Z">
+        <seg>Structural Approach</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сценарий выполнит действия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084625Z" creationid="Марианна" creationdate="20200717T084625Z">
+        <seg>The workflow will perform the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сценарий может:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163348Z" creationid="Марианна" creationdate="20200718T163348Z">
+        <seg>The Workflow can be distinguished by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также создать узел-ссылку можно, перетащив мышью выбранное подключение в область построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T101805Z" creationid="Марианна" creationdate="20200711T101805Z">
+        <seg>It is also possible to create the reference node dragging the required connection to the area of the workflow creation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, на каждом шаге происходит уточнение функций проекта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141011Z" creationid="Марианна" creationdate="20200718T141011Z">
+        <seg>Thus, the project functions are specified at each stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093103Z" creationid="Марианна" creationdate="20200715T093103Z">
+        <seg>Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, настройки узлов могут быть предметом вычисления в ходе выполнения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T071014Z" creationid="Марианна" creationdate="20200715T071014Z">
+        <seg>Thus, the node settings can be the calculation subject matter in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, от узла к узлу может передаваться список переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
+        <seg>Thus, a list of variables can be transferred from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, платформа может использоваться как для создания автономных аналитических решений, так и для разработки модулей, интегрируемых со сторонними системами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091041Z" creationid="Марианна" creationdate="20200715T091041Z">
+        <seg>Thus, the platform can be used both for creation of indepenent analytical solutions, and for development of modules integrated with external systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такой порт может принять в качестве входных данных или отдать в качестве выходных несколько переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
+        <seg>Such port can accept several variables as input data or deliver them as output data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр…&lt;x4/&gt; в контекстном меню порта (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100732Z" creationid="Марианна" creationdate="20200717T100732Z">
+        <seg>Now the imported data are present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел сценария выполняет отдельную операцию над данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
+        <seg>The workflow node performs a separate operation with data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы сценария создаются из компонентов 2-х типов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092204Z" creationid="Марианна" creationdate="20200715T092204Z">
+        <seg>The workflow nodes are created from 2 types of components :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Управляющие переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T072253Z" creationid="Марианна" creationdate="20200715T070537Z">
+        <seg>Control Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чаще всего для создания производного компонента используется &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
+        <seg>The &lt;x1/&gt;supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T095558Z" creationid="Марианна" creationdate="20200711T095558Z">
+        <seg>Step 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100027Z" creationid="Марианна" creationdate="20200711T100027Z">
+        <seg>Step 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104329Z" creationid="Марианна" creationdate="20200711T104329Z">
+        <seg>Step 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экспорт полученных результатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
+        <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это можно сделать в меню Пакеты (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
+        <seg>It can be done in the Package menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090332Z" creationid="Марианна" creationdate="20200715T071118Z">
+        <seg>It allows for more flexible implementation of the data processing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
+        <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 1):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T101343Z" creationid="Марианна" creationdate="20200711T101343Z">
+        <seg>Figure 1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 2).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104258Z" creationid="Марианна" creationdate="20200711T104258Z">
+        <seg>Figure 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 3).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085737Z" creationid="Марианна" creationdate="20200717T085737Z">
+        <seg>Figure 3).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 4).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100405Z" creationid="Марианна" creationdate="20200717T100405Z">
+        <seg>Figure 4).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 5).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101250Z" creationid="Марианна" creationdate="20200717T101250Z">
+        <seg>Figure 5).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 6).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110715Z" creationid="Марианна" creationdate="20200717T110715Z">
+        <seg>Figure 6).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 9).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
+        <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>

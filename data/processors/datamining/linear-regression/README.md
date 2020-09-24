@@ -1,6 +1,6 @@
 # ![](../../../images/icons/components/linear-regress_default.svg) Линейная регрессия
 
-## Описание
+## Description
 
 [Линейная регрессия](https://wiki.loginom.ru/articles/linear-regression.html) представляет собой модель зависимости между [входными](https://wiki.loginom.ru/articles/input-variable.html) и [выходными переменными](https://wiki.loginom.ru/articles/output-variable.html) c линейной функцией связи.
 

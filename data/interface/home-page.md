@@ -1,4 +1,4 @@
-# "Home" page
+# "Home" Page
 
 Upon the application opening, in the case of the desktop Loginom version, or authorization, in the case of the server Loginom version, the "Home" page is opened (refer to  Figure 1).
 
@@ -6,7 +6,7 @@ Upon the application opening, in the case of the desktop Loginom version, or aut
 
 This page contains the following commands to use [packages](../quick-start/package.md):
 
-* **New package** enables to create and save a new Package.
+* **New Package** enables to create and save a new Package.
 * **New Draft** enables to create a temporary Package and work with it without saving.
 * **Open Package** enables to open an existing Package.
 

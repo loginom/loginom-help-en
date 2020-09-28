@@ -1,41 +1,41 @@
-# Панель «Процессы»
+# "Processes" Panel
 
-Панель «Процессы» предназначена для получения дополнительной информации о процессах обработки данных узлами Сценариев в рамках текущей сессии Loginom. В панели иерархически фиксируются процессы и выполняющиеся в них узлы/подузлы, им присваиваются порядковые номера. Каждый новый процесс начинается со строки "Активация узлов", это обусловлено тем, что при старте работы Сценария параллельно могут выполняться сразу несколько узлов (см. Figure 1).
+"Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session. Processes and nodes/subnodes which are performed in them are hierarchically fixed on the panel. Sequence numbers were assigned to them. Each new process starts from the "Nodes activation" string. It is explained by the fact that several nodes at once can be run simultaneously at the Workflow start (refer to Figure 1).
 
 !["Processes" panel](./information-panel-1.png)
 
-Структура панели следующая:
+The panel has the following structure:
 
-* № — номер по порядку.
-* Процесс — иерархически указаны процессы (наименования) и их составные части. При нажатии на название процесса в Сценарии будет найден и выделен узел, который отвечает за его выполнение.
-* **%** — процент выполнения процесса.
-* Обработка:
-   * ![](./information-panel-2.png) — идет процесс обработки, и время его окончания невозможно рассчитать заранее;
-   * ![](./information-panel-3.png) — прогресс выполнения текущего процесса по мере обработки данных;
-   * ![](./information-panel-4.png) — успешное выполнение (обработка завершена);
-   * ![](./information-panel-5.png) — информация о результатах выполнения процесса еще не получена;
-   * ![](./information-panel-6.png) — при выполнении процесса произошла ошибка (обработка не завершена);
-   * ![](./information-panel-7.png) — выполнение процесса не начиналось, произошла ошибка.
-* ![](../images/icons/toolbar-controls/stop-all_default.svg) — остановить все процессы.
-   * ![](../images/icons/toolbar-controls/stop_default.svg) — остановить конкретный процесс.
-* ![](../images/icons/toolbar-controls/delete-all_default.svg) — удалить все завершенные процессы.
-   * ![](../images/icons/toolbar-controls/delete_default.svg) — удалить из списка конкретный процесс.
-* Ошибка — указывается текст ошибки в случае ее возникновения. При нажатии на данный текст на экран выведется полная формулировка ошибки.
-* Начало — дата и время начала процесса.
-* Конец — дата и время окончания процесса.
-* Время обработки — разница между началом и концом процесса обработки.
+* # — sequence number.
+* Process — processes (names) and their constituents are hierarchically specified. When pressing the process name, the node required for its execution will be found and selected in the Workflow.
+* **%** — percentage of the process execution.
+* Processing:
+   * ![](./information-panel-2.png) — processing process is in progress, and it is not possible to calculate its termination time in advance.
+   * ![](./information-panel-3.png) — execution progress of the current process as data are processed.
+   * ![](./information-panel-4.png) — successful completion (processing is completed).
+   * ![](./information-panel-5.png) — information on the process execution results has not been received yet.
+   * ![](./information-panel-6.png) — an error occurred while the process execution (processing is not completed).
+   * ![](./information-panel-7.png) — the process execution has not started yet, an error occurred.
+* ![](../images/icons/toolbar-controls/stop-all_default.svg) — to stop all processes.
+   * ![](../images/icons/toolbar-controls/stop_default.svg) — to stop a given process.
+* ![](../images/icons/toolbar-controls/delete-all_default.svg) — to delete all finished processes.
+   * ![](../images/icons/toolbar-controls/delete_default.svg) — to delete a given process from the list.
+* Error — error text is specified, should it occur. Full error text will be displayed, when this text pressing.
+* Start — date and time of the process start.
+* End - date and time of the process end.
+* Processing time — difference between start and end of the processing process.
 
-При выборе процесса на информационной панели можно вызвать контекстное меню, содержащее следующие действия:
+Selecting the process on the information panel, it is possible to call the context menu containing the following actions:
 
-* ![](../images/icons/toolbar-controls/stop-all_default.svg) **Отменить** — останавливает выполнение выбранного процесса;
-* ![](../images/icons/toolbar-controls/stop_default.svg) **Отменить выполнение всех процессов...** — останавливает выполнение всех процессов;
-* ![](../images/icons/toolbar-controls/delete_default.svg) **Удалить из списка** — удаляет процесс из списка информационной панели;
-* ![](../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все заверенные процессы...** — удаляет все завершенные процессы из списка информационной панели;
-* **Показать узел** — выделяет выбранный узел на области построения Сценариев;
-* **Подробнее** — выводит на экран сообщение об ошибке передаваемое узлом;
-* **Отображать завершенные процессы** — изменяет отображение процессов на панели:
-   * При наличии ![](../images/icons/toolbar-controls/apply_default.svg) отображает все процессы, за исключением тех, которые были удалены пользователем;
-   * При отсутствии ![](../images/icons/toolbar-controls/apply_default.svg) показывает только активные процессы и процессы, в которых возникли ошибки. Если в текущий момент времени не выполняется ни один из процессов, а также не было ошибок у процессов завершенных, то в информационной панели данные будут отсутствовать.
+* ![](../images/icons/toolbar-controls/stop-all_default.svg) **Cancel** enables to cancel execution of the selected process.
+* ![](../images/icons/toolbar-controls/stop_default.svg) **Cancel all processes...** enables to cancel execution of all processes.
+* ![](../images/icons/toolbar-controls/delete_default.svg) **Remove from list** enables to remove the process from the information panel list.
+* ![](../images/icons/toolbar-controls/delete-all_default.svg) **Delete all completed processes...** enables to delete all completed processes from the information panel list.
+* **Show node** enables to show the selected node in the Workflow construction area.
+* **Show details** enables to display an error message delivered by a node.
+* **Show completed processes** enables to change display of the processes on the panel:
+   * If ![](../images/icons/toolbar-controls/apply_default.svg) is available, it shows all processes, with the exception of those processes that have been removed by a user.
+   * If ![](../images/icons/toolbar-controls/apply_default.svg) is not available, it shows only active processes and the processes in which errors occurred. If none of the processes is executed at the moment, and there were no errors in the completed processes, there will be no data on the information panel.
 
-По умолчанию информационная панель скрыта. Ее можно открыть нажатием на кнопку ![](../images/icons/systempanel_status/systempanel_status_default-01.svg), расположенную в левом нижнем углу. Чтобы при работе со Сценарием информационная панель оставалась открытой, ее нужно закрепить нажатием на кнопку ![](../images/icons/toolbar-controls/unpin_default.svg), нажатие на ![](../images/icons/toolbar-controls/pin_default.svg) открепляет панель.
-Кнопка ![](../images/icons/toolbar-controls/clear_default.svg) панель закрывает.
+The information panel is hidden by default. It can be opened by pressing ![](../images/icons/systempanel_status/systempanel_status_default-01.svg) button located in the left low corner. To keep the information panel opened when working with the Workflow, it must be locked by pressing ![](../images/icons/toolbar-controls/unpin_default.svg) button. Pressing ![](../images/icons/toolbar-controls/pin_default.svg) will unlock the panel.
+![](../images/icons/toolbar-controls/clear_default.svg) button will close the panel.

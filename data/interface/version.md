@@ -1,27 +1,27 @@
-# Как узнать версию Loginom
+# How to Define Loginom Version
 
-## Персональные редакции (Community, Personal)
+## Personal Editions (Community, Personal)
 
-### Средствами интерфейса
+### By Interface Tools
 
-1. После запуска Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе". Откроется новое окно с информацией о версии (типа Loginom X.X.X, где X.X.X  –  номер версии).
+1. It is required to click the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option. The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
 
-### Средствами ОС
+### By OS Tools
 
-1. В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe). В появившемся окне содержится информация о приложении, включая номер версии (типа Версия файла: X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).
+1. It is required to hover a cursor over the required application in Windows Explorer (in this case: C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe). The appeared window contains information on the application, including version number (for example, file version: X.X.X.Y where X.X.X  is a version number, and Y is a build number).
 
-2. Доступным способом открыть Свойства приложения (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe). В закладке Подробно содержится информация о приложении (типа Версия продукта X.X.X, где X.X.X  –  номер версии; Версия файла: X.X.X.Y - см. выше).
+2. It is required to open the Application Properties using any available method (in this case, C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe). Read more tab contains information on the application (for example, application version X.X.X where X.X.X  is a version number; file version: X.X.X.Y - refer to the information above).
 
-3. Открыть Панель управления, выбрать пункт Удаление программы. В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).
+3. It is required to open Control panel, and select Program uninstallation. The last Version column contains information on the version number (for example, X.X.X or X.X.X.Y where X.X.X  is a version number, and Y is a build number).
 
-## Серверные редакции (Team, Standard, Enterprise)
+## Server Editions (Team, Standard, Enterprise)
 
-### Средствами интерфейса
+### By Interface Tools
 
-1. Открыть в браузере стартовую страницу Loginom. Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).
+1. It is required to open the Loginom home page. There is a version number in the left lower corner before login/password entering (for example, Loginom X.X.X where X.X.X  is a version number).
 
-2. После авторизации Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе". Откроется новое окно с информацией о версии (типа Loginom X.X.X, где X.X.X  –  номер версии).
+2. It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click "About". The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
 
-### Средствами ОС
+### By OS Tools
 
-1. Способы просмотра номера версии на сервере Loginom средствами ОС аналогичны способам, описанным выше для десктопных редакций, за исключением того, что для удаленного подключения к файловой системе сервера Loginom пользователю необходимы права администратора, а собственно интересующее приложение Loginom – это сервер (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).
+1. Methods to view the version number on the Loginom server using the OS tools are similar to the methods that are described above for desktop editions. But a user should have administrator rights to get remote access to the Loginom server file system. The Loginom application of interest is a server (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).

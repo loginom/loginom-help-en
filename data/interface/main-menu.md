@@ -1,41 +1,41 @@
-# Главное меню
+# Main Menu
 
-Главное меню расположено в левой части программного окна и содержит следующие кнопки:
+The main menu is located in the left part of the application window and contains the following buttons:
 
-* [Меню](#menyu);
-* [Пакеты](#pakety);
-* [Навигация](#navigatsiya);
-* [Администрирование](../admin/README.md);
-* [Файлы](../location_user_files.md);
-* [Процессы](./processes-panel.md).
+* [Menu](#menyu)
+* [Packages](#pakety)
+* [Navigation](#navigatsiya)
+* [Administration](../admin/README.md)
+* [Files](../location_user_files.md)
+* [Processes](./processes-panel.md)
 
-## Меню
+## Menu
 
-Нажатие на данную кнопку открывает панель со следующими командами:
+Press this button to open the panel with the following commands:
 
-* **Начало** — переход на [страницу «Начало»](./home-page.md);
-* **Справка** — вызов справки;
-* **Выход** — закрытие всех Пакетов и выход из приложения;
-* **Проверить наличие обновления** — проверка актуальных версий платформы на сайте разработчика.
+* **Home** means transition to the ["Home" page](./home-page.md).
+* **Help** means help topics.
+* **Exit** means closure of all Packages and application exit.
+* **Check for updates** means check for current released platform versions on the vendor's website.
 
-> **Примечание:** на данной панели содержится информация о *текущей версии приложения* и
-> *имя пользователя*, под которым открыта текущая сессия (в случае серверной версии Loginom).
+> **Note:** this panel contains information on the *current application version* and
+> *user name* under which the current session is opened (in the case of the server Loginom version).
 
-## Пакеты
+## Packages
 
-Нажав на данную кнопку, открывается панель со следующими командами:
+This button enables to use the panel with the following commands:
 
-* **Создать новый** — создание нового Пакета;
-* **Создать черновик** — создание временного Пакета, не сохраняя его;
-* **Открыть** — открытие существующего Пакета;
-* **Сохранить** — сохранение Пакета или его изменений в текущей директории;
-* **Сохранить как** — сохранение Пакета в выбранной директории;
-* **Закрыть пакет** — закрытие открытого Пакета.
+* **New** enables to create a new Package.
+* **New Draft** enables to create a temporary Package without its saving.
+* **Open** enables to open an existing Package.
+* **Save** enables to save or change a Package in the current directory.
+* **Save as** enables to save a Package in the selected directory.
+* **Close package** enables to close an opened Package.
 
-> **Примечание:** команды "Сохранить", "Сохранить как", "Закрыть пакет" доступны в случае открытого Пакета.
+> **Note:** "Save", "Save as", "Close package" commands are available in the case of the opened Package.
 
-## Навигация
+## Navigation
 
-Данная кнопка отрывает древовидную структуру Пакета, позволяющую быстро перемещаться по его составным объектам (см. рисунок 1).
+This button enables to open the tree-like Package structure that allows for quick transition across its complex objects (refer to Figure 1).
 
-![Навигация.](./navigation.png)
+![Navigation](./navigation.png)

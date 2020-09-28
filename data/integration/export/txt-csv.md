@@ -1,46 +1,46 @@
-# ![ ](../../images/icons/data-sources/file-txt-export_default.svg) Экспорт в текстовый файл
+# ![ ](../../images/icons/data-sources/file-txt-export_default.svg) Export to the Text File
 
-Предназначен для экспорта набора данных в текстовый файл. Имеется возможность настройки преобразования набора данных в текстовый вид, определяя различные способы представления столбцов (с разделителями/фиксированной ширины), форматы типов данных, разделители и т.д.
+It is designated for export of the data set to the text file. It is possible to configure transformation of the data set to the text form defining different methods of representation of columns (with delimiters/fixed width), formats of data types, delimiters, etc.
 
-### Вход
+### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source is a data table to be exported.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
-## Мастер настройки
+## Wizard
 
-Настройка компонента происходит в два этапа:
+The component is configured in two steps:
 
-### Шаг 1. Настройка форматов экспорта
+### Step 1. Configuration of the Export Formats
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-приемнику.
-* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
-* Группа параметров *Разделители*:
-   * **Ограничитель строк** — символ, обрамляющий данные ячейки набора данных. В качестве ограничителя строк могут быть использованы символы:
-      * Двойная кавычка(");
-      * Одинарная кавычка (');
-      * Обратная кавычка (`).
+* **File storage** enables to display information on method of connection to the destination file.
+* **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* *Delimiters* group of parameters:
+   * **Text qualifier** is a character that frames cell data of the data set. The following characters can be used as text qualifiers:
+      * Double quotation mark (")
+      * Single quotation mark (')
+      * Backquote mark (`)
 
-      По умолчанию используется Двойная кавычка (").
+      Double quotation mark (") is used by default.
 
-   * **Десятичный разделитель** — символ, разделяющий дробную и целую части числовых значений. Разделителем может быть Точка (.) или Запятая (,).
+   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions. Dot mark (.) or comma (,) can be used as delimiters.
 
-   * **Разделитель даты** — символ, разделяющий компоненты даты. Доступные разделители:
-      * Точка (.);
-      * Слэш (/);
-      * Обратный слэш (&#92;).
+   * **Date separator** is a character that separates date components. Available delimiters:
+      * Dot mark (.)
+      * Slash (/)
+      * Back slash (&#92;)
 
-   * **Разделитель времени** — символ, разделяющий компоненты времени. Разделителем может быть Двоеточие (:) или Точка (.).
+   * **Time separator** is a character that separates time components. Colon (:) or dot mark (.) can be used as delimiters.
 
-      В параметрах *Десятичный разделитель*, *Разделитель даты* и *Разделитель времени* в качестве значений по умолчанию используются [локальные настройки](../../scenario/local-settings.md).
+      [Local settings](../../scenario/local-settings.md) are used as default values in the following parameters: *Decimal separator*, *Date separator* and *Time separator*.
 
-* Группа параметров *Представление значений*:
-   * **Истина** — текст, представляющий логическое значение ИСТИНА. По умолчанию используется строка *True*. Доступные значения: *True, Истина, Да*.
-   * **Ложь** — текст, представляющий логическое значение ЛОЖЬ. По умолчанию используется строка *False*. Доступные значения: *False, Ложь, Нет*.
-   * **Пусто** — текст, представляющий значение Null. По умолчанию используется символ знака вопроса *?*. Доступные значения: *?, null, NULL*.
+* *Literals* group of parameters:
+   * **True** is a text that represents the logical TRUE value. The *True* row is used by default. There are the following available values: *True, True, Yes*.
+   * **False** is a text that represents the logical False value. The *False* row is used by default. There are the following available values: *False, False, No*.
+   * **Null** is a text that represents the Null value. The question mark *?* is used by default. There are the following available values: *?, null, NULL*.
 
-* Группа параметров *Форматы*:
-   * **Формат даты** — формат представления даты:
+* *Formats* group of parameters:
+   * **Date format** is a format of the date representation:
       * dd/mm/yyyy
       * mm/dd/yyyy
       * yyyy/mm/dd
@@ -48,40 +48,40 @@
       * mm/dd/yy
       * yy/mm/dd
 
-      Во всех форматах: dd — день месяца в виде 2-х цифр, mm — номер месяца в виде 2-х цифр, yy — год в виде 2-х цифр, yyyy - год в виде 4-х цифр.
+      There are the following abbreviations in all formats: dd — day of the month in the form of 2 digits, mm — number of the month in the form of 2 digits, yy — year in the form of 2 digits, yyyy - year in the form of 4 digits.
 
-   * **Формат времени** — формат представления времени:
+   * **Time format** is a format of the time representation:
       * h:mm
       * hh:mm
       * h:mm:ss
       * hh:mm:ss
 
-      Во всех форматах: h — часы без ведущего нуля, hh — часы в виде 2-х цифр, mm — минуты в виде 2-х цифр, ss — секунды в виде 2-х цифр.
+      There are the following abbreviations in all formats: h — hours without leading zero, hh — hours in the form of 2 digits, mm — minutes in the form of 2 digits, ss — seconds in the form of 2 digits.
 
-      При заполнении этих параметров можно воспользоваться предлагаемыми в списке вариантами форматов, либо задать [пользовательский формат](./txt-csv/datetime-formats.md).
+      When filling in these parameters, it is possible to use the listed format options, or to set the [user format](./txt-csv/datetime-formats.md).
 
-### Шаг 2. Экспорт в текстовый файл
+### Step 2. Export to the Text File
 
-* **Состояние входа** — строка состояния входа *Источник данных*.
-* Группа параметров *Представление столбцов*:
-   * **Формат данных** — выбор одного из вариантов:
-      * **С разделителями** — значения полей в исходном файле отделяются символом, заданным параметром *Разделитель столбцов*. Значение этого параметра выбирается из списка:
-         * Символ табуляции;
-         * Точка с запятой;
-         * Пробел;
-         * Запятая;
-         * Точка.
-      * **Фиксированной ширины** — поля в исходном файле имеют заданную ширину.
-* **Кодовая страница** — кодировка, в которой сохранится текст. Доступные варианты:
+* **Login status** is a login status row - *Data source*.
+* *Columns View* group of parameters:
+   * **Data format** enables to select one of the following options:
+      * **With separators**: this option means values of fields in the source file that are separated by the character set by the *Column delimiter* parameter. The value of this parameter is selected from the list:
+         * Tab character
+         * Semicolumn
+         * Space
+         * Comma
+         * Dot mark
+      * **Fixed width**: fields in the source file have the set width.
+* **Codepage** means encoding used for storage of text. There are the following available options:
    * ANSI/Windows(0);
    * ASCII/MS DOS(1);
-   * Кириллическая (1251);
-   * Западноевропейская (1252);
+   * Cyrillic (1251);
+   * West European (1252);
    * UTF-8 (65001);
    * UTF-16 LE (1200);
    * UTF-16 BE (1201).
 
-* **Строка заголовка** — выбор способа задания наименования столбцов в экспортируемом файле:
-   * Метки столбцов (полей) - в качестве заголовков столбцов будут использованы Метки полей.
-   * Имена столбцов (полей) - в качестве заголовков столбцов будут использованы Имена полей.
-   * Нет строки заголовков - столбцы будут экспортированы без заголовков.
+* **Header Row** enables to select the method used for setting of columns name in the exported file:
+   * Captions of columns (fields): captions of fields will be used as headers of columns.
+   * Names of columns (fields): names of fields will be used as headers of columns.
+   * No header row: columns will be exported without headers.

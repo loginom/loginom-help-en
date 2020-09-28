@@ -1,37 +1,37 @@
-# ![ ](../../images/icons/data-sources/file-xml-import_default.svg) Импорт из XML-файла
+# ![ ](../../images/icons/data-sources/file-xml-import_default.svg) Import from the XML File
 
-Компонент предназначен для импорта таблиц данных из файлов формата XML.
+The component is designated for data tables import from the XML files.
 
-> **Важно:** Для работы узла требуется предварительно создать [подключение к XSD-схеме](../connections/list/schemes.md) и связать его с входным портом *Подключение*. Подключение происходит аналогично [подключению с БД](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The connection is performed similar to [connection to DB](../../quick-start/database.md).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки;
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее *Подключения к набору XSD-схем*.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection to the XSD schema source (optional port) enables connection to the *Connection to set of the XSD schemas* configured earlier.
 
-### Выход
+### Output
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных — импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set - imported table.
 
-## Мастер настройки
+## Wizard
 
-### Шаг 1. Настройка подключения к файлу XML
+### Step 1. Configuration of Connection to the XML File
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику;
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла;
-* **Просмотр выбранного файла** — область позволяет увидеть содержание выбранного для импорта файла.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **Preview selected file** enables to view content of the file selected for import.
 
-### Шаг 2. Импортируемые поля
+### Step 2. Imported Fields
 
-* **Подключение** — состояние подключения к XSD-схеме.
-* **Корневой элемент** — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться. Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля импортируемой таблицы.
-* **Временная зона по умолчанию** — значения с типом *Дата/Время* преобразуются при извлечении из XML по следующему алгоритму:
-   * Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.
-   * Если значение не содержит указание временной зоны, то:
-      * если *Временная зона по умолчанию* задана, значение преобразуется к текущей временной зоне сервера Loginom в предположении, что имеет временную зону, указанную в параметре *Временная зона по умолчанию*.
-      * если *Временная зона по умолчанию* не задана, значение остается без изменений.
-* **Дублировать единичные значения** — если в составе последовательности имеется единичный элемент и вложенная последовательность, значения единичного элемента будут продублированы для каждой строки, образованной из вложенной последовательности.
-* **Проверять на строгое соответствие XSD** — при установке флага производится валидация XML на строгое соответствие XSD схеме. В противном случае проверка производится в упрощенном, ускоренном режиме. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML в случае, если имеются невыявленные ошибки валидации.
-* **Генерировать составные метки полей** — при наличии данного флага в каждой метке поля будет отражена иерархия относительно корневого элемента. Например, составная метка `ROOT|PERSON|ACCES-LEVEL` будет сформирована для поля импортированной таблицы, содержащего данные атрибута `ACCESS-LEVEL` элемента `PERSON` из корневого элемента `ROOT` файла. При отсутствии данного флага поле получит название `ACCESS-LEVEL`.
+* **Connection** is a state of connection to the XSD schema.
+* **Root element** means selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchical structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.
+* **Default time zone**: the *Date/time* type values are transformed when extracting from XML according to the following algorithm:
+   * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
+   * If the time zone is not specified for the value, the following conditions are met:
+      * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
+      * If *Default time zone* is not specified, the value is not changed.
+* **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
+* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
+* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. For example, complex `ROOT|PERSON|ACCES-LEVEL` caption will be generated for the imported table field that contains data of the `ACCESS-LEVEL` attribute of the `PERSON` element from the root element of the `ROOT` file. When this flag is absent, the field will get the `ACCESS-LEVEL` name.

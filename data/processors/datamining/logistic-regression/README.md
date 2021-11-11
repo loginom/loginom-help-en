@@ -1,6 +1,6 @@
 # ![ ](../../../images/icons/components/logregression_default.svg) Логистическая регрессия
 
-## Описание
+## Description
 
 [Логистическая регрессия](https://wiki.loginom.ru/articles/logistic-regression.html) — это разновидность множественной регрессии, общее назначение которой состоит в анализе связи между несколькими [независимыми переменными](https://wiki.loginom.ru/articles/input-variable.html) и [зависимой переменной](https://wiki.loginom.ru/articles/output-variable.html).
 

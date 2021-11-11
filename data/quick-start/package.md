@@ -1,15 +1,15 @@
-# Назначение и структура пакета
+# Package Usage Type and Structure
 
-Все действия с проектом в Loginom осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.
+All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.
 
-Пакеты сохраняются по-отдельности в виде файлов с расширением .lgp, и включают в себя Ссылки и Модули.
+Packages are saved separately in the form of files with .lgp extension, and they include References and Modules.
 
-Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте. Соответствующие объекты доступны только в том случае, когда они опубликованы для общего доступа.
+The References are used for connection of other packages in order to use the derived components created in them and connections in the current project. Corresponding objects are available only if they are published for shared access.
 
-Каждый пакет содержит хотя бы один модуль. Модуль включает в себя:
+Each package contains at least one module. The Module inludes the following items:
 
-* [Сценарий](./first-scenario.md) — содержит последовательность узлов обработки данных;
-* [Подключения](./../integration/connections/README.md) — в них представлен список внешних источников и приемников данных, к которым можно подключиться;
-* [Компоненты](./../processors/README.md#standartnye-komponenty) — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.
+* The [Workflow](./first-scenario.md) contains sequence of data processing nodes.
+* [Connections](./../integration/connections/README.md) include a list of the external sources and data receivers to be connected with.
+* [Components](./../processors/README.md#standartnye-komponenty) include the supernodes available for work, both created within the current package and borrowed from other packages using references.
 
-> Примечание: при открытии любого пакета всегда создается файл с именем `<Название_пакета>.lgp.lck`. Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями. После закрытия пакета этот файл удаляется.
+> Note: In the case of any package opening the file with the following name is created: `<Package_name>.lgp.lck`. This file protects the opened package from possible editing or deleting by other users. This file is deleted upon the package closure.

@@ -1,43 +1,43 @@
-# Принципы проектирования
+# Design Principles
 
-**Проект** — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.
+The **Project**: complex of workflows, files, data sources and other items designated for solution of a particular analytical task.
 
-Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.
+The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.
 
-## Структурный подход
+## Structural Approach
 
-В основе построения проекта лежит методология *структурного проектирования* — представление алгоритма в виде иерархической структуры блоков.
+The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchic structure of blocks.
 
-Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу. Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.
+Each block can be represented on its hierarchic level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
 
-Спроектированный таким образом проект имеет четкую, легко читаемую структуру. Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.
+The project designed in such a way has a clear and transparent structure. It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.
 
-Особенностью подобного подхода является проектирование «сверху вниз» — от общей постановки задачи к отдельным подзадачам. На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи. На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.
+The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the next step with specification of the next level items.
 
-Таким образом, на каждом шаге происходит уточнение функций проекта. Процесс продолжают, пока не доходят до подзадач, алгоритмы, решения которых очевидны.
+Thus, the project functions are specified at each stage. The process is repeated until definition of subtasks and algorithms solutions of which are obvious.
 
-## Механизм повторного использования алгоритмов
+## Mechanism of the Algorithms Reuse
 
-Выделение блоков, решающих независимые подзадачи, дает возможность применять их повторно в смежных задачах. Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.
+Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks. Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.
 
-В Studio инструментом для создания таких функций являются *производные компоненты*. Создав один раз компонент «[ABC-анализа](https://wiki.loginom.ru/articles/abc-analysis.html)», его можно применять как в задаче сегментации товаров, так и в сегментации клиентской базы. Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.
+The *derived components* are tools for creation of such functions in Studio. Having once created the "[ABC analysis](https://wiki.loginom.ru/articles/abc-analysis.html)" component, it can be applied both for solution of the goods and customer base segmentation task. The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.
 
-В производных компонентах реализуется *механизм наследования*, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.
+The *inheritance mechanism* is executed in the derived components. Its advantage is its ability to modify the universal component created by a user only in one place - in the library of functions. These changes will be automatically introduced in all workflows where it is used.
 
-Однако не всегда удается встроить универсальный компонент в конкретный сценарий без внесения в него изменений. При этом изменить его в библиотеке функций нет возможности, поскольку сработает механизм наследования, и это может привести к ошибкам во всех сценариях, где он применяется.
+However, it is not always possible to insert the universal component into particular workflow without introduction of changes into it. At the same time, it is not possible to change it in the library of functions because the inheritance mechanism will be activated. It can cause errors in all workflows where it is applied.
 
-Данную задачу решает *механизм переопределения*, позволяющий модифицировать производный компонент только в использующем его сценарии, при этом в библиотеке функций он останется неизменным.
+This task is solved by the *overriding mechanism* providing modification of the derived component only in the workflow using it. It will be unchanged in the library of functions.
 
-## Декомпозиция
+## Decomposition
 
-Структура Проекта может быть представлена в иерархическом виде:
+The Project structure can be represented in the hierarchic form:
 
-* Проект может состоять из связанных между собой Пакетов — это возможно благодаря тому, что *каждый пакет может предоставлять свои объекты другим пакетам* через механизм ссылок.
-* Пакет включает в себя Модули — декомпозиция пакета на уровне модулей.
-* **Модуль** — сам по себе не содержит узлов обработки данных, но предоставляет отдельное пространство для Сценариев и [Подключений](../integration/connections/README.md) к различным источникам данных.
-* **Сценарий** — содержит последовательность узлов обработки данных. Сценарий может:
-   * Включать в себя подпрограммы — [Подмодель](../processors/control/submodel.md).
-   * Получать данные от узлов из других сценариев и пакетов через механизм [Узел-ссылка](../processors/control/unit-link.md).
-   * Использовать настройки и обученные модели узлов из других сценариев и пакетов через механизм [Выполнение узла](../processors/control/execute-node.md).
-   * Использовать готовые алгоритмы обработки данных, созданные в других сценариях и пакетах через механизм [Производные компоненты](../scenario/derived-component.html).
-* **Подмодель** — включает в себя другие узлы, предоставляя, таким образом, отдельное пространство для реализации произвольного алгоритма обработки данных. Подмодель в сценарии представлена в качестве узла, имеющего заданные пользователем входные и выходные порты. Может содержать в себе иерархию вложенных подмоделей. На базе подмодели может быть создан Производный компонент.
+* The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of references.
+* The package includes the Modules - the package decomposition on the level of modules.
+* The **Module** as such does not contain data processing nodes, but it provides separate space for the Workflows and [Connections](../integration/connections/README.md) to different data sources.
+* The **Workflow** contains sequence of data processing nodes. The Workflow can be distinguished by the following features:
+   * It can include subprograms — the [Supernode](../processors/control/submodel.md).
+   * It can receive data from nodes from other workflows and packages using the [Reference Node](../processors/control/unit-link.md) mechanism.
+   * It can use settings and trained models of nodes from different workflows and packages using the [Node Execution](../processors/control/execute-node.md) mechanism.
+   * It can use ready algorithms of processing of the data created in other workflows and packages using the [Derived Components](../scenario/derived-component.html) mechanism.
+* The **Supernode** includes other nodes providing in such a way separate space for execution of the random algorithm of data processing. The supernode in the workflow is represented as the node that has the input and output ports set by a user. It can include hierarchy of nested supernodes. The Derived Component can be created on the supernode base.

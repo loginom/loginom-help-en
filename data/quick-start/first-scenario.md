@@ -1,69 +1,69 @@
-# Первый сценарий
+# The First Workflow
 
-В вариантах поставки [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) и [Team](https://loginom.ru/platform/pricing#edition-team) при запуске программы открывается стартовая страница с авторизацией. Необходимо войти в систему, введя свой логин и пароль. Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: *user*, без пароля. В варианте [Personal](https://loginom.ru/platform/pricing#edition-personal) авторизация отсутствует.
+In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery editions, when starting the software, the home login page is opened. It is required to log in having entered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
 
-После авторизации открывается окно выбора действий (страница [Начало](../interface/home-page.md)), в котором можно выполнять следующие операции с пакетами.
+Upon authorization, the action selection window will be opened (the [Home page](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
 
-* **Создать пакет** — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.
-* **Создать черновик** — создание нового пакета без предварительного сохранения. Сохранить пакет можно будет уже во время работы с ним.
-* **Открыть пакет** — открытие ранее созданного пакета.
+* **New package** — creation of the new package. You will be asked to show the path to save the package.
+* **New Draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
+* **Open Package** — opening of the earlier created package.
 
-> **Важно:** программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.
+> **Important:** The software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.
 
-После выбора пакета пользователь попадает в рабочее пространство программы. Его можно разделить на четыре основные области (см. рисунок 1):
+Upon package selection, a user will enter the working space of the software. It can be divided into four main areas (refer to Figure 1):
 
-1. Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, [Файлы](../location_user_files.md), [Процессы](../interface/processes-panel.md).
-2. Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.
-3. Справа от главного меню располагается рабочий стол. Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.
-4. В нижней части окна расположена панель Процессы. По умолчанию она скрыта, но ее можно закрепить.
+1. The main menu with the following buttons is located on the left: Menu, Packages, Navigation, [Files](../location_user_files.md), [Processes](../interface/processes-panel.md).
+2. The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.
+3. Desktop is located to the right of the main menu. It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.
+4. The Processes panel is located in the lower part of the window. It is hidden by default, but it is possibble to lock it.
 
-![Рабочее пространство Studio.](./first-scenario-1.png)
+![Working Space of Studio.](./first-scenario-1.png)
 
-После создания пакета пользователь увидит Область построения сценария (6) и панель Компоненты (5), содержащую стандартные компоненты, предоставляемые платформой (см. рисунок 2).
+Upon package creation, a user will see the Workflow Construction Area (6) and the Components panel (5) which contains the standard components provided by the platform (refer to Figure 2).
 
-![Область построения сценария и панель Компоненты.](./first-scenario-2.png)
+![The Workflow Construction Area and the Components Panel](./first-scenario-2.png)
 
-В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).
-Создадим простой сценарий, формирующий ТОП10 лучших клиентов.
+In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).
+Let's create a simple workflow that will form TOP10 list of the best clients.
 
-Сценарий выполнит действия:
+The workflow will perform the following actions:
 
-* Импорт из файла [Sales.txt](../attach/Sales.txt) информации о продажах;
-* Выделение 10 клиентов с наибольшими суммами покупок;
-* Экспорт полученных результатов.
+* Import of the sales information from the [Sales.txt](../attach/Sales.txt) file.
+* Selection of 10 clients with the highest purchase sums.
+* Export of the received results.
 
-Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.
+To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.
 
-Выберем в разделе Импорт компонент [Текстовый файл](../integration/import/txt-csv.md) и перенесем его в область построения (см. рисунок 2). При этом создастся узел сценария, выполняющий действие импорта. При клике мышкой на узле отобразятся иконки возможных действий. Вызовем [Мастер настройки](../integration/import/txt-csv.md) (см. рисунок 3).
+Select the [Text file](../integration/import/txt-csv.md) component in the Import section and transfer it to the construction area (refer to Figure 2). In this case, the workflow node responsible for import is created. Icons of possible actions will be displayed after mouse click. Call the [Wizard](../integration/import/txt-csv.md) (refer to Figure 3).
 
-![Вызов мастера настройки узла.](./first-scenario-3.png)
+![Call node configuration wizard.](./first-scenario-3.png)
 
-Пройдем шаги мастера, указав в параметре Имя файла местоположение файла Sales.txt.
+Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.
 
-После настройки узла выполним его, используя меню возможных действий. Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Быстрый просмотр…](../visualization/preview/quick-view.md) в контекстном меню порта (см. рисунок 4).
+Execute the node upon its configuration using the menu of possible actions. Now the imported data is present in the output node port. It is possible to view them selecting ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Quick View…](../visualization/preview/quick-view.md) in the context port menu (refer to Figure 4).
 
-![Вызов быстрого просмотра.](./first-scenario-4.png)
+![Call Quick View](./first-scenario-4.png)
 
-Следующим шагом в алгоритме необходимо подсчитать общие суммы покупок по всем клиентам. Для этого переместим компонент [Группировка](../processors/transformation/grouping.md) в рабочую область сценария. Последовательность обработки данных задается соединением выходного порта узла импорта с входным портом группировки (см. рисунок 5).
+The next algorithm step is calculation of purchase sum for all clients. For this purpose, trasfer the [Grouping](../processors/transformation/grouping.md) component to the working workflow area. The sequence of data processing is set by connection of the output port of the import node with the input grouping port (refer to Figure 5).
 
-![Формирование связи.](./first-scenario-5.png)
+![Establish Connection](./first-scenario-5.png)
 
-В Мастере настройки узла [Группировка](../processors/transformation/grouping.md) поле Карта клиента задается как группа, а Сумма как показатель. После настройки и выполнения узла группировки в выходном порту содержатся данные об итоговых суммах покупок клиентов.
+The Client Card field is set as a group, and the Sum is set as a parameter in the [Grouping](../processors/transformation/grouping.md) Node Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
 
-Далее эти данные сортируются по убыванию суммы при помощи компонента [Сортировка](../processors/transformation/sorting.md) и затем передаются на узел выделения первых 10 строк таблицы.  Для этого используется компонент [Фильтр строк](../processors/transformation/row-filter/README.md), в мастере которого задается условие: "№ Номер строки <= 10".
+Then this data is sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then this data is transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row Filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" criteria is set in its wizard.
 
-В результирующем сценарии добавляется узел экспорта и/или настраивается [Визуализатор](../visualization/README.md) результатов (см. рисунок 6).
+The export node is added to the resulting workflow, and/or the [Visualizer](../visualization/README.md) of results is configured (refer to Figure 6).
 
-![Результирующий сценарий.](./first-scenario-6.png)
+![Resulting Workflow](./first-scenario-6.png)
 
-Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в [Подмодель](../processors/control/submodel.md). Для этого необходимо выделить эти узлы и при помощи кнопки ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) создать подмодель.
+The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
 
-![Выделение блока узлов.](./first-scenario-7.png)
+![Selection of the Block of Nodes](./first-scenario-7.png)
 
-![Преобразование блока узлов в Подмодель.](./first-scenario-8.png)
+![Transformation of the Block of Nodes to the Supernode](./first-scenario-8.png)
 
-В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях. Принципы создания решений на основе собственных компонентов рассматриваются в статье [Проектирование сценариев](../scenario/README.md).
+Later on, the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](../scenario/README.md) article.
 
-Перед закрытием пакета его необходимо *сохранить*. Это можно сделать в меню Пакеты (см. рисунок 9).
+The package must be *saved* before its closure. It can be done in the Package menu (refer to Figure 9).
 
-![Сохранение пакета.](./first-scenario-9.png)
+![Save Package](./first-scenario-9.png)

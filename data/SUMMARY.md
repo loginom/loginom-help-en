@@ -103,7 +103,7 @@
             * [Разность](./processors/transformation/join/distinct.md)
          * [Соединение](./processors/transformation/addition.md)
          * [Сортировка](./processors/transformation/sorting.md)
-         * [Фильтр строк](./processors/transformation/row-filter/README.md)
+         * [Row Filter](./processors/transformation/row-filter/README.md)
             * [Условия фильтрации](./processors/transformation/row-filter/filter-conditions.md)
          * [JavaScript](./processors/transformation/java-script/README.md)
             * [Внешние модули](./processors/transformation/java-script/external-modules.md)

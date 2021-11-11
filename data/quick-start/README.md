@@ -6,7 +6,7 @@ Thus, the platform can be used both for creation of indepenent analytical soluti
 
 One of the main concepts on which the [**Loginom**](https://loginom.ru) platform is based is the [Workflow](./first-scenario.md).
 
-The **Workflow** is a sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve particular tasks.
+**Workflow**: sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve a particular task.
 
 The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready *components*.
 
@@ -19,7 +19,7 @@ The workflow nodes are created from 2 types of components :
 * **Standard components** are provided by the platform.
 * **Derived components** are created and configured by a user.
 
-The derived components can be created from combination of the workflow nodes implementing the random processing logics.
+The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
 Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
 
@@ -42,11 +42,11 @@ Types of ports of the workflow nodes:
     </tr>
     <tr>
         <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Table</td>
-        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data elements: rows, numbers, dates, logical values.</td>
+        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data items: rows, numbers, dates, logical values.</td>
     </tr>
     <tr>
         <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Variables</td>
-        <td>They are objects containing only one value. It is possible to transform the data from tables to variables and vice versa using the special handlers.</td>
+        <td>They are objects containing only one value. It is possible to convert the data from tables to variables and vice versa using the special handlers.</td>
     </tr>
      <tr>
         <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Data tree</td>

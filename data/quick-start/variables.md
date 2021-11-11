@@ -2,7 +2,7 @@
 
 Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.
 
-**Variable** is a named value of one of the possible [data types](../data/datatype.md).
+**Variable**: the named value of one of the possible [data types](../data/datatype.md).
 
 The variables port is designated for receipt and transfer of variables from node to node. Such port can accept several variables as input data or deliver them as output data.
 

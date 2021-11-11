@@ -1,18 +1,18 @@
 # Design Principles
 
-The **Project** is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.
+The **Project**: complex of workflows, files, data sources and other items designated for solution of a particular analytical task.
 
 The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.
 
 ## Structural Approach
 
-The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchical structure of blocks.
+The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchic structure of blocks.
 
-Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
+Each block can be represented on its hierarchic level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
 
 The project designed in such a way has a clear and transparent structure. It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.
 
-The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the next step with specification of the next level elements.
+The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the next step with specification of the next level items.
 
 Thus, the project functions are specified at each stage. The process is repeated until definition of subtasks and algorithms solutions of which are obvious.
 
@@ -30,7 +30,7 @@ This task is solved by the *overriding mechanism* providing modification of the 
 
 ## Decomposition
 
-The Project structure can be represented in the hierarchical form:
+The Project structure can be represented in the hierarchic form:
 
 * The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of references.
 * The package includes the Modules - the package decomposition on the level of modules.

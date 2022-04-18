@@ -1,44 +1,44 @@
-# ![ ](../../../images/icons/data-sources/db-oracle_default.svg) Подключение Oracle
+# ![ ](../../../images/icons/data-sources/db-oracle_default.svg) Oracle Connection
 
-Используется для подключения к базе данных Oracle.
+It is used for connection to the Oracle database.
 
-Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.
+It is possible to provide connection both via DBMS client, and the internal Loginom driver.
 
-## Параметры подключения
+## Connection Parameters
 
-При настройке подключения задаются следующие параметры:
+The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения.
-* **Строка подключения** — строка, используемая драйвером для подключения к необходимой базе данных. Формат строки подключения определяется используемым драйвером (см. параметр *Не использовать клиент СУБД*).
-   * Формат строки при использовании встроенного драйвера: **`<ServerName>:<Port>:<Instance>`**.
-      * **ServerName** — хост сервера СУБД.
-      * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.
-      * **Instance** — Oracle Database Instance (SID), содержащий необходимые данные.
-   * Формат строки при использовании клиента СУБД: *`<ServerName>`*.
-      * **ServerName** — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
-* **Протестировать подключение** — тест указанных настроек подключения.
-* **Логин** — логин пользователя БД.
-* **Пароль** — пароль пользователя БД.
-* **Сохранять пароль** — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.
-* **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД. Для Oracle — двойные кавычки.
-* **Не использовать клиент СУБД** — если задействовать эту опцию, то для подключения к СУБД используется альтернативный, встроенный в платформу драйвер.
-* **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен.
-* **Описание** — в этой форме можно оставить любую справочную информацию о подключении.
+* **Caption** contains the connection name set by a user.
+* **Connection string**: the string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter).
+   * The string format when the inbox driver is used is as follows: **`<ServerName>:<Port>:<Instance>`**.
+      * **ServerName**: the DBMS server host.
+      * **Port**: the TCP port used by DBMS server to provide interaction with the client.
+      * **Instance**: Oracle Database Instance (SID) that contains the required data.
+   * The string format when DBMS client is used is as follows: *`<ServerName>`*.
+      * **ServerName**: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.
+* **Test connection**: test of the specified connection settings.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
+* **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
+* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for Oracle.
+* **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
+* **Description**: it is possible to provide any reference connection data in this form.
 
-> **Примечание:** Для подключения к базе данных через клиент СУБД необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
 
-## Совместимость
+## Compatibility
 
-* Клиенты: 12c, 11g, 10g, 9i, 8i, 8.0
-* Серверы: 12c, 11g, 10g, 9i, 8i, 8.0, включая Oracle Express Edition 11g и 10g
+* Clients: 12c, 11g, 10g, 9i, 8i, 8.0
+* Servers: 12c, 11g, 10g, 9i, 8i, 8.0, including Oracle Express Edition 11g and 10g
 
-> **Важно:** Для обмена данными с сервером используется кодировка UTF16.
+> **Important:** UTF16 encoding is used for data exchange with the server.
 
-**Смотри также:**
+**See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Официальный сайт производителя](https://www.oracle.com/);
-* [Краткая документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLQR/toc.htm);
-* [Полная документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLRF/toc.htm);
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database);
+* [Official manufacturer website](https://www.oracle.com/);
+* [Brief SQL Syntax Documentation](http://docs.oracle.com/database/122/SQLQR/toc.htm);
+* [Full SQL Syntax Documentation](http://docs.oracle.com/database/122/SQLRF/toc.htm).

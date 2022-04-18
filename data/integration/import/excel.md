@@ -8,13 +8,13 @@ It is used for data import from the Microsoft Excel files.
 
 ### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
 ## Wizard
 
 The wizard contains several configuration stages.
 
-### Step 1. Import from the Excel File
+### Step 1. Import from Excel File
 
 The following parameters are specified at the first configuration stage:
 
@@ -29,7 +29,7 @@ The following parameters are specified at the first configuration stage:
    * **Reference style**: it is requested to select one of the identification options of the Excel worksheet cells.
       * **A1**: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.
       * **R1C1**: in R[x]C[y] format where x is a cell row number, y is a cell column number.
-   * **Range** is a range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.
+   * **Range**: the range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.
    * **All rows**: when selecting this option, the range of cells set in the *Range* parameter will be extended up to the last row.
 * **Blank rows**: as the range of cells set according to the previous parameters can contain blank rows, it is requested to select one of options of their processing.
    * **Import**: blank rows will be imported.
@@ -45,7 +45,7 @@ It is required to specify the following parameters at the configuration stage:
 
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
-   * **Source data**: the source version of the downloaded data wil be displayed in the table wizard part.
+   * **Raw data**: the source version of the downloaded data will be displayed in the table wizard part.
 
 The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
@@ -62,4 +62,4 @@ The following settings are used to generate the resulting data set in the manual
    * Undefined
    * Continuous
    * Discrete
-* **Use**: flag of the field inclusion into the resulting data set.
+* **Use**: checkbox of the field inclusion into the resulting data set.

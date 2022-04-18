@@ -1,23 +1,23 @@
-# ![ ](../../images/icons/data-sources/db-database-export_default.svg) Экспорт в базу данных
+# ,![ ](../../images/icons/data-sources/db-database-export_default.svg) Export to Database
 
-Обработчик осуществляет экспорт исходного набора в базу данных.
+The handler exports the initial data set to database.
 
-> **Важно:** Для работы узла требуется предварительно создать [подключение](../connections/README.md) к базе данных и связать его с входным портом *Подключение*. [Пример подключения и работы с БД](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of the DB connection and operation](../../quick-start/database.md).
 
-### Вход
+### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — порт для установки подключения к базе данных;
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection: the port for connection to database.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source: the data table to be exported to database.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
-## Мастер настройки
+## Wizard
 
-* **База данных** — отображает строку подключения к базе данных. Кнопка *Активировать* делает активным это подключение.
-* **Имя таблицы** — задает имя таблицы, в которую планируется осуществить экспорт. Эту таблицу можно выбрать из списка существующих в базе данных. Кнопка [*Создать таблицу*](./database/new-table-design.md) открывает окно создания новой таблицы в БД.
-* **Тип экспорта** — задается выбором одного из вариантов.
-   * **Дополнить таблицу данными** — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.
-   * **Очистить таблицу и заполнить данными** — таблица базы данных будет полностью очищена и затем наполнена строками экспортируемой таблицы.
-   * **Удалить записи по ключевым полям** — дает возможность на следующем этапе *Настройка соответствия между столбцами* выбрать ключевое поле, по которому будет происходить удаление записей из таблицы базы данных. Экспорт как таковой при этом не производится.
-   * **Удалить записи по ключевым полям и дополнить таблицу данными** — алгоритм такой же, как и для предыдущего параметра, но после его выполнения строки из таблицы-источника будут добавлены к таблице базы данных.
-   * **Обновить существующие записи в таблице** — позволяет выбрать ключевое поле, по которому будет происходить обновление записей.
-* **Периодичность фиксации транзакции (строк)** — разделение процесса экспорта на несколько транзакций. Транзакции фиксируются через указанное количество строк. При нулевом значении параметра разделение на транзакции не производится.
+* **Database** enables to display a string of connection to database. *Activate* button makes this connection active.
+* **Table name** enables to set a name of the table to which it is planned to export data. This table can be selected from the list of the database tables. [*Create table*](./database/new-table-design.md) button enables to open the window for the new table creation in DB.
+* **Export type** enables to select one of the options.
+   * **Append data to table** enables to append rows from the source table to the selected database table.
+   * **Clear table and append data** enables to clear the database table completely and fill in with rows of the exported table.
+   * **Delete records by key fields** enables to select a key field by which records will be deleted from the database table at the next stage - *Adjustment of columns mapping*. In this case, export as such is not performed.
+   * **Delete records by key fields and insert data into table** provides the same algorithm as for the previous parameter but rows from the source table will be appended to the database table upon its execution.
+   * **Update existing table records** enables to select the key field by which records will be updated.
+* **Transaction commit frequency (rows)** enables to divide the export process into several transactions. Transactions are committed after a given count of rows. If the parameter value is null, division into transactions is not performed.

@@ -19,36 +19,36 @@ The wizard contains several configuration stages.
 The following parameters are specified at the first configuration stage:
 
 * **File storage** enables to display information on method of connection to the source file.
-* **File name** is a path to the file that contains required data.
-* **Codepage** means encoding used for storage of text in a file.
-* **First line title** is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.
-* **Skip rows** means count of the rows from the text beginning that cannot be imported.
+* **File name**: the path to the file that contains required data.
+* **Codepage**: the encoding used for storage of text in a file.
+* **First line title**: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
+* **Skip rows**: count of the rows from the text beginning that cannot be imported.
 
-### Step 2. Configuration of the Import Formats
+### Step 2. Configure Import Formats
 
 The following parameters are specified at the configuration stage:
 
 * Separators:
-   * **Text qualifier** is a character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurence is imported as one value even if the text contains a separating character.
-   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions.
-   * **Date separator** is a character that separates date components.
-   * **Time separator** is a character that separates time components.
+   * **Text qualifier**: the character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurrence is imported as one value even if the text contains a separating character.
+   * **Decimal separator**: the character that separates fractional and integer parts of numeric expressions.
+   * **Date separator**: the character that separates date components.
+   * **Time separator**: the character that separates time components.
 * Literals:
-   * **True** is a text that represents the logical *True* value.
-   * **False** is a text that represents the logical *False* value.
-   * **Null** is a text that represents the *Null* value.
+   * **True**: the text that represents the logical *True* value.
+   * **False**: the text that represents the logical *False* value.
+   * **Null**: the text that represents the *Null* value.
 * Formats:
    * **Date format**: the parameter enables to set the date format used in the imported text.
 
-### Step 3. Parameters of Import with Separators
+### Step 3. Import Parameters with Separators
 
 It is required to specify the following parameters at the configuration stage:
 
-* **Column delimiter** is a character separating data of adjacent columns.
-* **Treat consecutive delimiters as one**: flag placement enables to treat several consecutive column delimiters as one.
+* **Column delimiter**: the character separating data of adjacent columns.
+* **Treat consecutive delimiters as one**: checkbox selection enables to treat several consecutive column delimiters as one.
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
-   * **Source data**: the source (text) version of downloaded data will be displayed in the table wizard part.
+   * **Raw data**: the source (text) version of downloaded data will be displayed in the table wizard part.
 
 The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
@@ -65,4 +65,4 @@ The following settings are used to generate the resulting data set in the manual
    * Continuous
    * Discrete
    * Undefined
-* **Use**: flag of the field inclusion into the resulting data set.
+* **Use**: checkbox of the field inclusion into the resulting data set.

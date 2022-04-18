@@ -1,65 +1,65 @@
-# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Импорт из Excel-файла
+# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Import from the Excel File
 
-Используется для импорта данных из файлов Microsoft Excel.
+It is used for data import from the Microsoft Excel files.
 
-### Входные порты
+### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
-### Выходные порты
+### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
-## Мастер настройки
+## Wizard
 
-Мастер содержит несколько этапов настройки.
+The wizard contains several configuration stages.
 
-### Шаг 1. Импорт из Excel файла
+### Step 1. Import from Excel File
 
-На первом этапе настройки указываются следующие параметры:
+The following parameters are specified at the first configuration stage:
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику.
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
-* Группа параметров *Область данных*.
-   * **Выбор объекта** — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.
-      * **По номеру** — по порядковому номеру листа книги.
-      * **По имени** — по наименованию листа книги.
-      * **Именованный диапазон** — по наименованию созданного в книге именованного диапазона.
-   * **Весь лист** — область листа, содержащего данные для импорта, определяется автоматически.
-   * **Стиль ссылок** — предлагается выбрать один из вариантов обозначения ячеек листа Excel.
-      * **A1** — в формате, в котором строка ячейки обозначается латинскими буквами, а столбец — цифрами.
-      * **R1C1** — в формате R[x]C[y], где x — номер строки ячейки, y — номер столбца ячейки.
-   * **Диапазон** — диапазон импортируемых ячеек, заданных в формате `[адрес верхней левой ячейки]:[адрес правой нижней ячейки]`.
-   * **До последней строки** — при выборе этой опции диапазон ячеек, заданный в параметре *Диапазон*, будет расширен до последней строки.
-* **Пустые строки** — поскольку диапазон ячеек, заданный предыдущими параметрами, может содержать пустые строки, то предлагается выбрать один из вариантов их обработки.
-   * **Импортировать** — пустые строки будут импортированы.
-   * **Исключить** — пустые строки не будут импортированы.
-   * **До первой пустой строки** — строки будут импортированы до первой пустой строки.
-* **Количество строк заголовка** — количество верхних строк заданного предыдущими параметрами диапазона, которые не будут импортированы.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* *Data source* group of parameters
+   * **Object selection**: it is requested to select one of the selection options of the Excel object containing the imported data.
+      * **By number**: by the workbook sheet order number.
+      * **By name**: by the workbook sheet name.
+      * **Named range**: by the name of the named range created in the workbook.
+   * **Whole sheet**: area of the sheet containing data for import is automatically defined.
+   * **Reference style**: it is requested to select one of the identification options of the Excel worksheet cells.
+      * **A1**: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.
+      * **R1C1**: in R[x]C[y] format where x is a cell row number, y is a cell column number.
+   * **Range**: the range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.
+   * **All rows**: when selecting this option, the range of cells set in the *Range* parameter will be extended up to the last row.
+* **Blank rows**: as the range of cells set according to the previous parameters can contain blank rows, it is requested to select one of options of their processing.
+   * **Import**: blank rows will be imported.
+   * **Exclude**: blank rows will not be imported.
+   * **To first blank row**: rows will be imported up to the first blank row.
+* **Title row count**: count of the upper rows of the range set by the previous parameters that will not be imported.
 
-Табличная часть мастера предназначена для отображения исходных данных и диапазона импортируемых ячеек. Значение параметра *Диапазон* можно задать при помощи выделения мышью ячеек таблицы.
+The table wizard part is designated for display of the source data and range of the imported cells. Value of the *Range* parameter can be set by selecting the table cells with the mouse.
 
-### Шаг 2. Настройка полей
+### Step 2. Configure Fields
 
-На этапе настройки указываются следующие параметры:
+It is required to specify the following parameters at the configuration stage:
 
-* Отобразить:
-   * **Результат** — в табличной части окна мастера будет показан результат преобразования данных с учетом установленных параметров полей.
-   * **Исходные данные** — в табличной части окна мастера будет показан исходный вариант загружаемых данных.
+* It is required to display the following data:
+   * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
+   * **Raw data**: the source version of the downloaded data will be displayed in the table wizard part.
 
-Табличная часть окна мастера предназначена для настройки параметров импорта для каждого поля набора данных.
+The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
-* **Кол-во строк для анализа** — задает количество строк данных, которые будут представлены в таблице для анализа (от 1 до 200);
-* ![Обновить все](../../images/icons/toolbar-controls/refresh_default.svg) **Обновить все** — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных;
-* ![Обновить данные](../../images/icons/toolbar-controls/refresh-data_default.svg) **Обновить данные** — только перечитывает указанное количество строк в таблицу.
+* **Row count for analysis** enables to set row count of the data which will be displayed in the table for analysis (from 1 to 200);
+* ![Refresh All](../../images/icons/toolbar-controls/refresh_default.svg) **Refresh All** enables to reread the specified row count into a table, and provides automatic generation of the resulting data set.
+* ![Refresh data](../../images/icons/toolbar-controls/refresh-data_default.svg) **Refresh data** only rereads the specified row count into a table.
 
-Следующие настройки применяются для формирования результирующего набора данных вручную:
+The following settings are used to generate the resulting data set in the manual way:
 
-* **Имя** — задается уникальное имя поля.
-* **Метка** — задает пользовательское описание поля.
-* **Тип данных** — [тип данных](../../data/datatype.md) , в который будет преобразовано текстовое значение поля.
-* **Вид данных** — [вид данных](../../data/datakind.md), задается списком значений:
-   * Неопределенный.
-   * Непрерывный.
-   * Дискретный.
-* **Использовать** — флаг включения поля в результирующий набор данных.
+* **Name**: the unique field name is assigned.
+* **Caption**: the user field description is provided.
+* **Data type** — [data type](../../data/datatype.md): the text field value will be transformed.
+* **Data kind** — [data kind](../../data/datakind.md): it is set by a list of values:
+   * Undefined
+   * Continuous
+   * Discrete
+* **Use**: checkbox of the field inclusion into the resulting data set.

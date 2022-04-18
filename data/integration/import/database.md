@@ -1,45 +1,45 @@
-# ![ ](../../images/icons/data-sources/db-database-import_default.svg) Импорт из базы данных
+# ![ ](../../images/icons/data-sources/db-database-import_default.svg) Import from Database
 
-Компонент предназначен для импорта набора данных из СУБД. Созданный на базе данного компонента узел позволяет импортировать таблицу или представление из базы данных, либо результаты выполнения заданного пользователем [SQL](https://wiki.loginom.ru/articles/sql.html)-запроса.
+The component is designated for data set import from DBMS. The node created on the basis of this component enables to import a table or view from database, or results of execution of the [SQL](https://wiki.loginom.ru/articles/sql.html) query set by a user.
 
-В тексте SQL-запроса можно использовать [Управляющие переменные](../../scenario/variables/control-variables.md) в качестве параметров и макроподстановок, что позволяет динамически формировать запрос, отправляемый на сервер.
+It is allowed to use [Control variables](../../scenario/variables/control-variables.md) in the SQL query text as parameters and macro substitution. It allows for dynamic generation of the request sent to the server. 
 
-> **Важно:** для работы узла требуется предварительно создать [подключение](../connections/README.md) к базе данных и связать его с входным портом *Подключение*. [Пример подключения и работы с БД](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of the DB connection and operation](../../quick-start/database.md).
 
-## Порты
+## Ports
 
-### Входные порты
+### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) **Подключение** — принимает параметры подключения к базе данных;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Управляющие переменные** — (необязательный порт) переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) **Connection** accepts parameters of connection to database.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Control variables** (optional port): it is possible to set values of the wizard parameters using variables.
 
-### Выходные порты
+### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Набор данных** — таблица с импортированными данными.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set**: the table with imported data.
 
-## Мастер настройки
+## Wizard
 
-Мастер настройки содержит следующие параметры:
+There are the following parameters in the wizard:
 
-* **Подключение** — отображает строку подключения к источнику данных. Не доступна для редактирования.
-* **Список *Таблицы/Представления*** — в списке осуществляется выбор доступных для импорта таблиц и представлений источника данных. Для отображения списка должно быть активировано подключение с помощью кнопки *Активировать*.
-* ![ ](../../images/extjs-theme/splitter/mini-left.svg) / ![ ](../../images/extjs-theme/splitter/mini-right.svg) — скрывает / показывает список *Таблицы/Представления*.
-* **Область выбора варианта извлечения данных из БД** — содержит две вкладки:
-   * **Таблица/Представление** — извлечение заданных полей объекта БД. Для этого в списке *Таблица/Представление* необходимо отметить поля объекта БД, выбранного в списке *Таблицы/Представления*.
-   * **SQL запрос** — формирование результирующего набора данных SQL запросом. Для этого на вкладке *SQL запрос* задается текст запроса к базе данных. При формировании текста SQL запроса существует возможность использования значений переменных входного порта, что позволяет оптимизировать обработку запросов и более гибко настроить работу с базой данных.
+* **Connection** enables to display a string of connection to data source. It cannot be edited.
+* **List *Tables/Views***. The data source tables and views available for import are selected from the list. To display the list, connection must be activated by means of *Activate* button.
+* ![ ](../../images/extjs-theme/splitter/mini-left.svg) / ![ ](../../images/extjs-theme/splitter/mini-right.svg) — hides/shows the *Tables/Views* list.
+* **Area of selection of variant of data retrieval from DB** contains two tabs:
+   * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to select fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.
+   * The **SQL query** enables to form the resulting data set by means of the SQL query. For this purpose, it is required to enter text of the database query in the *SQL query* tab. When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.
 
-Кнопка [Предпросмотр…](../../visualization/preview/preview.md) позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.
+[Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first rows of the resulting table.
 
-## Применение переменных в запросах
+## Use of Variables in Queries
 
-В SQL-запросах возможно использование переменных:
+Variables can be used in the SQL queries in the following ways:
 
-* в качестве **параметра** — в переменной задается определенное значение. В тексте запроса параметр записывается со знаком двоеточие, например `:var1`. При этом будет учитываться тип переменной, например строка будет обрамлена кавычками. Использовать параметры можно только в секции *WHERE*.
-* в качестве **макроподстановки** — в значении переменной указывается SQL-запрос или какая-то его часть. В тексте запроса ее необходимо обрамлять знаками процента, например `%condition%`.
+* As **parameter**: a defined value is set for the variable. The parameter is written with a colon in the query text, for example: `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section.
+* As **macro substitution**: the SQL query or its any part is specified as the variable. It must be marked with percent signs in the query text, for example, `%condition%`.
 
-> **Примечание:** если конструкция подстановки заключена в кавычки, то в приоритете работают кавычки, а не подстановка.
+> **Note:** if the substitution construction is in quotation marks, quotation marks are prioritized but not the substitution.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 ```sql
 SELECT * FROM %tables%
@@ -49,24 +49,24 @@ WHERE
    AND Publisher.Name LIKE '%Media%'
 ```
 
-, где
+where 
 
-| имя переменной | тип | значение для примера |
+| variable name | type | example value |
 |:---|:---|:---|
-| tables | строка | Books JOIN Publisher ON Books.PubId = Pub.Id |
-| cond1 | строка | title LIKE |
-| TitlePart | строка | Приключен% |
-| MinYear | целое | 2005 |
-| Media | строка | Астра-инфо |
+| tables | string | Books JOIN Publisher ON Books.PubId = Pub.Id |
+| cond1 | string | title LIKE |
+| TitlePart | string | Adventures% |
+| MinYear | integer | 2005 |
+| Media | string | Astra Info |
 
-Здесь `'%Media%'` не является макроподстановкой, поэтому замена на значение переменной произведена не будет.
+In this case, `'%Media%'` is not a macro substitution, that's why no replacement with the variable value will take place.
 
-В результате будет сформирован следующий запрос:
+Consequently, the following query will be generated:
 
 ```sql
 SELECT * FROM Books JOIN Publisher ON Books.PubId = Pub.Id
 WHERE
-   title LIKE 'Приключен%'
+   title LIKE 'Adventures%'
    AND Books.year > 2005
    AND Publisher.Name LIKE '%Media%'
 ```

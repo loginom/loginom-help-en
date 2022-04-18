@@ -1,29 +1,29 @@
-# ![ ](../../../images/icons/data-sources/driver-odbc_default.svg) Подключение ODBC
+# ![ ](../../../images/icons/data-sources/driver-odbc_default.svg) ODBC Connection
 
-Используется для подключения к одному из источников данных [ODBC](https://wiki.loginom.ru/articles/odbc.html).
+It is used for connection to one of the [ODBC](https://wiki.loginom.ru/articles/odbc.html) data sources.
 
-## Параметры подключения
+## Connection Parameters
 
-При настройке подключения задаются следующие параметры:
+The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения;
-* **Строка подключения** — указывается строка подключения в формате установленного в системе драйвера ODBC, либо выбирается один из настроенных в системе источников данных ODBC. Список источников вызывается при клике мышью по кнопке ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). В списке выводятся доступные источники данных ODBC. Настройка источников осуществляется в [администраторе источников данных ODBC Windows](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). Там же содержится информация об установленных в системе драйверах и можно узнать формат строки подключения;
-* **Протестировать подключение** — тест указанных настроек подключения;
-* **Логин** — логин пользователя БД;
-* **Пароль** — пароль пользователя БД;
-* **Сохранять пароль** — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения;
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени;
-* **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД. Для ODBC символы обрамляющих кавычек определяются автоматически;
-* **Не использовать клиент СУБД** — для подключений ODBC эта опция не используется;
-* **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен;
-* **Описание** — в этой форме можно оставить любую справочную информацию о подключении.
+* **Caption** contains the connection name set by a user.
+* **Connection string**: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of the ODBC data sources configured in the system. List of the sources is called by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The available ODBC data sources are listed. The sources are configured in [ODBC Windows data sources administrator](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). It also contains information on the drivers installed in the system, and it is possible to define the connection string format.
+* **Test connection**: test of the specified connection settings.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
+* **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
+* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. The framing quotes characters are automatically defined for ODBC.
+* **Do not use DBMS client**: this option is not used for the ODBC connections.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
+* **Description**: it is possible to provide any reference connection data in this form.
 
-> **Примечание:** Для подключения необходима установка драйвера ODBC той же разрядности, что и разрядность приложения/сервера Loginom. В 64-разрядных ОС используются два администратора источников данных ODBC 32-разрядный C:\Windows\SysWOW64\odbcad32.exe и 64-разрядный C:\Windows\System32\odbcad32.exe.
+> **Note:** To provide connection, it is required to install the ODBC driver with the same bitness as the Loginom application/server bitness. Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.
 
-Список предустановленных в ОС Windows драйверов ODBC:
+List of the ODBC drivers preinstalled in Windows OS:
 
-32-разрядные:
+32 bit:
 
 * SQL Server
 * Microsoft ODBC for Oracle
@@ -34,30 +34,30 @@
 * Microsoft Text Driver (*.txt; *.csv)
 * Microsoft Visual FoxPro Driver
 
-64-разрядные:
+64 bit:
 
 * SQL Server
 
-Список драйверов ODBC, для которых предусмотрено использование строки подключения:
+List of the ODBC drivers for which it is recommended to use the connection string:
 
-* Различные драйвера для SQL Server
+* Different drivers for SQL Server
 * Microsoft Text Driver
 * Firebird/InterBase® driver
 * Microsoft Excel Driver
 * Microsoft Access Driver
 * Microsoft dBASE Driver
-* Драйвера для Oracle
+* Drivers for Oracle
 * SQLite3 ODBC Driver
-* Драйвера для MySQL
+* Drivers for MySQL
 * Microsoft Paradox Driver
 * Microsoft Visual FoxPro Driver
-* Драйвера для PostgreSQL
-* Драйвера для Sybase/Adaptive Server Enterprise
+* Drivers for PostgreSQL
+* Drivers for Sybase/Adaptive Server Enterprise
 
-Если драйвер не находится в данном списке, то настроить подключение к нему возможно только через выбор уже настроенного источника данных.
+If the driver is not listed, it is possible to set up a connection to it only by selecting already configured data source.
 
-**Смотри также:**
+**See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/ODBC)
-* [Сайт с описанием правил и примеров написания строк подключения](https://www.connectionstrings.com/)
-* [Примеры написания строк подключения к разным источникам данных](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/)
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/ODBC);
+* [Site with rules and examples of connection string writing](https://www.connectionstrings.com/);
+* [Examples of writing of connection strings for different data sources](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/).

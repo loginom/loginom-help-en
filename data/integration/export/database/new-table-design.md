@@ -1,40 +1,40 @@
-# Создание новой таблицы
+# Create New Table
 
-Данное окно имеет две вкладки:
-* Настройки;
-* SQL-запрос.
+This window has two tabs:
+* Configure
+* SQL query
 
-%spoiler%Пример заполнения:%spoiler%
+%spoiler%Example of filling in:%spoiler%
 
-{% tabs one="Настройка", two="SQL-запрос" %}
+{% tabs one="Configure", two="SQL query" %}
 
 {% content "one" %}
-![Настройка полей новой таблицы.](./new-table-design-1.png)
+![Configure fields of the new table](./new-table-design-1.png)
 
 {% content "two" %}
-![Представление создаваемой таблицы в виде SQL-запроса.](./new-table-design-2.png)
+![Representation of the created table in the form of SQL query](./new-table-design-2.png)
 
 {% endtabs %}
 
 %/spoiler%
 
-## Настройки
+## Configure
 
-Здесь задаются:
-* Название таблицы — уникальное в пределах БД имя таблицы.
-* Поля таблицы с указанием следующих параметров:
-   * Имя поля в [допустимом формате](../../../data/datasetfieldoptions.md).
-   * Тип данных поля.
-   * Размер (только для строкового поля) — максимальная длина строки, по умолчанию установлен равным 50. Значение параметра, установленное по умолчанию, при необходимости следует скорректировать в соответствии с экспортируемыми данными.
+The following data is set below:
+* Table name is a unique table name in DB.
+* Table fields specifying the following parameters:
+   * Field name in the [permissible format](../../../data/datasetfieldoptions.md).
+   * Type of the field data.
+   * Size (only for the string field): the maximum string length; by default, it is equal to 50. It is required to adjust the parameter value set by default according to the exported data, if relevant.
 
-> **Важно:** При превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.
+> **Important:** When exceeding the maximum value of the exported string length, the export error will occur.
 
-Для редактирования списка полей используются следующие кнопки:
-* ![](../../../images/icons/toolbar-controls/moveup_default.svg)/![](../../../images/icons/toolbar-controls/movedown_default.svg) — перемещают выделенное поле, определяя его положение в списке полей создаваемой таблицы;
-* ![](../../../images/icons/toolbar-controls/plus_default.svg) — добавляет новое поле в таблицу;
-* ![](../../../images/icons/toolbar-controls/autosync_default.svg) — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту обработчика;
-* ![](../../../images/icons/toolbar-controls/delete-all_default.svg) — удаляет все поля в новой таблице.
+The following buttons are used to edit the list of fields :
+* ![](../../../images/icons/toolbar-controls/moveup_default.svg)/![](../../../images/icons/toolbar-controls/movedown_default.svg) moves the selected field defining its position in the list of fields of the created table;
+* ![](../../../images/icons/toolbar-controls/plus_default.svg) adds a new field to the table;
+* ![](../../../images/icons/toolbar-controls/autosync_default.svg) sets the list and features of fields as in the table connected to the input port of the handler;
+* ![](../../../images/icons/toolbar-controls/delete-all_default.svg) deletes all fields in the new table.
 
-## SQL-запрос
+## SQL Query
 
-Данная вкладка позволяет просмотреть вид SQL-запроса, определяющего структуру таблицы. <br>
+This tab enables to view the SQL query type defining the table structure. <br>

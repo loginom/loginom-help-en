@@ -1,13 +1,13 @@
-# Интеграция
+# Integration
 
-Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами. Loginom имеет возможность  работать как с [веб-сервисами](./web-services/README.md), так и базами данных и файловыми хранилищами данных (электронные таблицы, текстовые файлы и т.д.).
+The integration mechanisms are designated for data exchange between the third party external systems and Loginom platform. Loginom can work both with [web services](./web-services/README.md), databases and file data warehouses (spreadsheets, text files, etc.).
 
-> **Важно**:
-> Для интеграции с некоторыми источниками, например, базами данных и веб-сервисами, необходима предварительная настройка [подключения](./connections/README.md).
+> **Important**:
+> To provide integration with several sources, for example, databases and web services, it is required to preset [connection](./connections/README.md).
 
-Для описания реализации обмена данными можно выделить несколько разделов:
+To describe the data exchange process, several sections can be identified:
 
-* [Подключение](./connections/README.md) — этот раздел включает описание подключений с указанием параметров доступа ко внешним системам, требуемых для последующего многократного использования;
-* [Импорт](./import/README.md) — раздел предназначен для описания узлов извлечения данных из внешних источников с целью их последующей обработки;
-* [Экспорт](./export/README.md) — раздел предназначен для описания узлов наполнения внешних систем обработанными данными с целью их дальнейшего хранения, использования, пересылки или публикации;
-* [Веб-сервисы](./web-services/README.md) — данный раздел описывает работу Loginom с веб-сервисами.
+* [Connnection](./connections/README.md). This section includes description of connections with parameters of access to the external systems that are required for the subsequent multiple use.
+* [Import](./import/README.md). The section is designated for description of the nodes used for data retrieval from the external sources for their further processing.
+* [Export](./export/README.md). The section is designated for description of the nodes used for filling the external systems with the processed data for their further storage, use, transfer or publication.
+* [Web services](./web-services/README.md). This section describes Loginom and web services operation.

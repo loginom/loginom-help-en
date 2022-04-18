@@ -1,34 +1,34 @@
-# Пользовательский формат дата/время
+# User Date/Time Format
 
-При задании пользовательского формата используются следующие наборы символов форматирования:
+When setting the user format, the following sets of formatting characters are used:
 
-* День.
-   * **d** — день месяца без ведущего нуля.
-   * **dd** — день месяца в виде 2-х цифр.
-* День недели.
-   * **ddd** — день недели в сокращенном формате ("Воск", "Пн" и т.д.).
-   * **dddd** — день недели в полном формате ("Воскресенье", "Понедельник" и т.д.).
-      *Месяц.
-   * **m** — номер месяца без ведущего нуля.
-   * **mm** — номер месяца в виде 2-х цифр.
-   * **mmm** — месяц в сокращенном формате ("Янв", "Фев" и т.д.).
-   * **mmmm** — месяц в полном формате ("Январь", "Февраль" и т.д.).
-* Год.
-   * **y** или **yy** — год, 2 цифры.
-   * **yyyy** — год, 4 цифры.
-* Часы.
-   * **h** — часы без ведущего нуля.
-   * **hh** — часы в виде 2-х цифр.
-* Минуты.
-   * **n** — минуты без ведущего нуля.
-   * **nn** — минуты в виде 2-х цифр.
-* Секунды.
-   * **s** — секунды без ведущего нуля.
-   * **ss** — секунды в виде 2-х цифр.
-* Миллисекунды.
-   * **z** — миллисекунды без ведущего нуля.
-   * **zzz** — миллисекунды в виде 2-х цифр.
+* Day.
+   * **d** — day of the month without leading zero.
+   * **dd** — day of the month in the form of 2 digits.
+* Day of the week.
+   * **ddd** — day of the week in the abbreviated format ("Sun", "Mon", etc).
+   * **dddd** — day of the week in the full format  ("Sunday", "Monday", etc).
+      *Month.
+   * **m** — number of the month without leading zero.
+   * **mm** — number of the month in the form of 2 digits.
+   * **mmm** — month in the abbreviated format ("Jan", "Feb", etc).
+   * **mmmm** — month in the full format ("January", "February", etc).
+* Year.
+   * **y** or **yy** — year, 2 digits.
+   * **yyyy** — year, 4 digits.
+* Hours.
+   * **h** — hours without leading zero.
+   * **hh** — hours in the form of 2 digits.
+* Minutes.
+   * **n** — minutes without leading zero.
+   * **nn** — minutes in the form of 2 digits.
+* Seconds.
+   * **s** — seconds without leading zero.
+   * **ss** — seconds in the form of 2 digits.
+* Milliseconds.
+   * **z** — mlliseconds without leading zero.
+   * **zzz** — mlliseconds in the form of 2 digits.
 
-**Пример:**
+**Example:**
 
-Для представления даты '11.08.1917' в виде «На дворе стоял **Август** месяц **17** года» используется строка форматирования: «На дворе стоял **mmmm** месяц **yy** года».
+To represent '11.08.1917' date in the following form: "It was **August** **17**" the following formatting string is used: "It was **mmmm** **yy**".

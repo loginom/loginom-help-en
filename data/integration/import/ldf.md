@@ -1,25 +1,25 @@
-# ![ ](../../images/icons/data-sources/file-native-import_default.svg) Импорт из LGD-файла
+# ![ ](../../images/icons/data-sources/file-native-import_default.svg) Import from the LGD File
 
-Обработчик предназначен для импорта таблицы из [LGD-файла](../../data-format/lgd-file.md). Поддерживается импорт DDF-файлов платформы Deductor.
+The handler is designated for the table import from the [LGD file](../../data-format/lgd-file.md). The DDF files import from the Deductor platform is supported.
 
-LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения. Файл хранит в себе настройки полей, что упрощает процесс импорта.
+LGD: the special format of files optimized for work in Loginom. It provides the maximum writing and reading speed. The file includes settings of fields that simplifies the import process.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
-### Выход
+### Output
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
-## Мастер настройки
+## Wizard
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику.
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
-* **Алгоритм сжатия** — отображение информации о методе сжатия LGD-файла, использованном при его создании.
-   * Без сжатия.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **Compression** enables to display information on the LGD file compression method used for its creation.
+   * None
    * [LZO](https://ru.wikipedia.org/wiki/LZO).
    * [LZ4](https://ru.wikipedia.org/wiki/LZ4).
-* **Разрядность** — выводит информацию о разрядности импортируемого файла: 64 или 32 бита.
+* **Bitness** enables to display information on bitness of the imported file: 64 or 32 bits.
